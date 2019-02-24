@@ -1,4 +1,4 @@
-﻿Log file open, 02/24/19 17:36:52
+﻿Log file open, 02/24/19 18:16:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: EscapeRoom
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(402209289) SRandInit(402209289).
+LogInit: Display: RandInit(-1775646327) SRandInit(-1775646327).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.311085
+LogStats: Stats thread started at 0.290081
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,100 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.271s to configure plugins.
+LogStreaming: Display: Took  0.275s to configure plugins.
+LogModuleManager: Warning: Module file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Binaries/Win64/UE4Editor-EscapeRoom-2223.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Warning: Incompatible or missing module: UE4Editor-EscapeRoom.dll
+Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom Development Win64 -project="C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+Creating makefile for EscapeRoom (ini files are newer than UBTMakefile)
+@progress push 5%
+@progress pop
+Target is up to date
+Total build time: 12,81 seconds (NoActionsToExecute executor: 0,00 seconds)
 LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Binaries/Win64/UE4Editor-EscapeRoom.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -223,439 +316,263 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.24-16.36.56:582][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-16.36.56:582][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.24-16.36.56:616][  0]LogInit: Computer: KROMGER
-[2019.02.24-16.36.56:616][  0]LogInit: User: Krogmer
-[2019.02.24-16.36.56:616][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.24-16.36.56:616][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.02.24-16.36.56:617][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.02.24-16.36.56:617][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.24-16.36.56:617][  0]LogMemory: Process Physical Memory: 273.95 MB used, 273.95 MB peak
-[2019.02.24-16.36.56:617][  0]LogMemory: Process Virtual Memory: 264.60 MB used, 264.60 MB peak
-[2019.02.24-16.36.56:617][  0]LogMemory: Physical Memory: 7619.31 MB used,  8721.82 MB free, 16341.13 MB total
-[2019.02.24-16.36.56:617][  0]LogMemory: Virtual Memory: 4793.01 MB used,  8721.82 MB free, 134217728.00 MB total
-[2019.02.24-16.36.56:654][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.02.24-16.36.56:654][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.02.24-16.36.57:069][  0]LogStreaming: Display: Took  0.415s to EndInitTextLocalization.
-[2019.02.24-16.36.57:069][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.24-16.36.57:111][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.24-16.36.57:111][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.24-16.36.57:383][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.24-16.36.57:427][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 ' (Feature Level 11_0)
-[2019.02.24-16.36.57:427][  0]LogD3D11RHI:       1480/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.24-16.36.57:430][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.24-16.36.57:430][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.24-16.36.57:430][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.24-16.36.57:442][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.24-16.36.57:442][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.24-16.36.57:442][  0]LogWindows: EnumDisplayDevices:
-[2019.02.24-16.36.57:442][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 ' (P:1 D:1)
-[2019.02.24-16.36.57:443][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
-[2019.02.24-16.36.57:443][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
-[2019.02.24-16.36.57:443][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.24-16.36.57:443][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 
-[2019.02.24-16.36.57:443][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.24-16.36.57:443][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.24-16.36.57:443][  0]LogRHI: Texture pool is 1036 MB (70% of 1480 MB)
-[2019.02.24-16.36.57:480][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
-[2019.02.24-16.36.57:483][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2019.02.24-16.36.57:483][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.02.24-16.36.57:483][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.24-16.36.57:505][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.24-16.36.57:507][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Intermediate/Shaders/WorkingDirectory/10280/).
-[2019.02.24-16.36.57:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Krogmer/AppData/Local/Temp/UnrealShaderWorkingDir/DE9F6BCB45183222705ED380F93AC8D2/'.
-[2019.02.24-16.36.57:800][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.24-16.36.57:816][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.24-16.36.57:831][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.24-16.36.57:847][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.24-16.36.57:864][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.24-16.36.57:880][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.24-16.36.57:896][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.24-16.36.57:918][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.24-16.36.57:926][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.24-16.36.57:940][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.02.24-16.36.57:954][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.02.24-16.36.57:967][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.02.24-16.36.57:981][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.02.24-16.36.57:994][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.02.24-16.36.58:008][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.02.24-16.36.58:043][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.02.24-16.36.58:043][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.02.24-16.36.58:058][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-16.36.58:060][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.24-16.36.58:101][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.24-16.36.58:113][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.24-16.36.58:127][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.24-16.36.58:141][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.24-16.36.58:154][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.24-16.36.58:169][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.24-16.36.58:169][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.24-16.36.58:375][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.24-16.36.58:375][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.24-16.36.58:375][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.24-16.36.59:329][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.24-16.36.59:420][  0]LogDerivedDataCache: Loaded boot cache 0.09s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.02.24-16.36.59:421][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.02.24-16.36.59:421][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.24-16.36.59:421][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.24-16.36.59:421][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.24-16.36.59:421][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.24-16.36.59:439][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.24-16.36.59:453][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Krogmer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.24-16.36.59:453][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.24-16.36.59:453][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.24-16.36.59:468][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.24-16.36.59:469][  0]LogSlate: Using Freetype 2.6.0
-[2019.02.24-16.36.59:469][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.24-16.36.59:469][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.24-16.36.59:655][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
-[2019.02.24-16.37.00:007][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-16.37.00:192][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.24-16.37.00:197][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.24-16.37.00:197][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.24-16.37.00:197][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.24-16.37.00:197][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.02.24-16.37.00:197][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.02.24-16.37.00:246][  0]LogNetVersion: EscapeRoom , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3547860031)
-[2019.02.24-16.37.00:777][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.090105 seconds
-[2019.02.24-16.37.00:783][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.02.24-16.37.00:783][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2019.02.24-16.37.00:783][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.24-16.37.02:889][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.24-16.37.02:953][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.24-16.37.05:515][  0]SourceControl: Source control is disabled
-[2019.02.24-16.37.05:515][  0]SourceControl: Source control is disabled
-[2019.02.24-16.37.05:552][  0]SourceControl: Source control is disabled
-[2019.02.24-16.37.05:592][  0]SourceControl: Source control is disabled
-[2019.02.24-16.37.06:526][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.24-16.37.06:826][  0]LogOcInput: OculusInput pre-init called
-[2019.02.24-16.37.06:998][  0]LogEngine: Initializing Engine...
-[2019.02.24-16.37.07:001][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.24-16.37.07:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-16.37.07:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-16.37.07:228][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.24-16.37.07:254][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-16.37.07:275][  0]LogInit: FAudioDevice initialized.
-[2019.02.24-16.37.07:430][  0]LogDerivedDataCache: Saved boot cache 0.15s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.02.24-16.37.07:446][  0]LogInit: Texture streaming: Enabled
-[2019.02.24-16.37.07:475][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.24-16.37.07:498][  0]LogInit: Transaction tracking system initialized
-[2019.02.24-16.37.07:537][  0]BlueprintLog: New page: Editor Load
-[2019.02.24-16.37.07:737][  0]LocalizationService: Localization service is disabled
-[2019.02.24-16.37.07:920][  0]LogConsoleResponse: Display: 
-[2019.02.24-16.37.08:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/' took 0.01s
-[2019.02.24-16.37.08:082][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.24-16.37.08:082][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.24-16.37.08:082][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.24-16.37.08:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-16.37.08:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-16.37.08:801][  0]SourceControl: Source control is disabled
-[2019.02.24-16.37.08:834][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.19/FeaturePacks/StarterContent.upack)
-[2019.02.24-16.37.08:849][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2019.02.24-16.37.08:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2019.02.24-16.37.08:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2019.02.24-16.37.08:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2019.02.24-16.37.08:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2019.02.24-16.37.08:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2019.02.24-16.37.08:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2019.02.24-16.37.08:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2019.02.24-16.37.08:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2019.02.24-16.37.08:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2019.02.24-16.37.08:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2019.02.24-16.37.08:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2019.02.24-16.37.08:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Collapse01.uasset"
-[2019.02.24-16.37.08:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Collapse02.uasset"
-[2019.02.24-16.37.08:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2019.02.24-16.37.08:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Explosion01.uasset"
-[2019.02.24-16.37.08:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Explosion02.uasset"
-[2019.02.24-16.37.08:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2019.02.24-16.37.08:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Fire01.uasset"
-[2019.02.24-16.37.08:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2019.02.24-16.37.08:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2019.02.24-16.37.08:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2019.02.24-16.37.08:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Light01.uasset"
-[2019.02.24-16.37.08:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2019.02.24-16.37.09:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Light02.uasset"
-[2019.02.24-16.37.09:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2019.02.24-16.37.09:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Smoke01.uasset"
-[2019.02.24-16.37.09:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2019.02.24-16.37.09:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2019.02.24-16.37.09:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2019.02.24-16.37.09:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2019.02.24-16.37.09:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2019.02.24-16.37.09:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2019.02.24-16.37.09:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2019.02.24-16.37.09:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Steam01.uasset"
-[2019.02.24-16.37.09:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2019.02.24-16.37.09:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2019.02.24-16.37.09:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2019.02.24-16.37.09:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2019.02.24-16.37.09:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2019.02.24-16.37.09:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2019.02.24-16.37.09:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2019.02.24-16.37.09:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2019.02.24-16.37.09:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2019.02.24-16.37.09:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2019.02.24-16.37.09:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2019.02.24-16.37.09:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2019.02.24-16.37.09:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2019.02.24-16.37.09:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2019.02.24-16.37.10:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2019.02.24-16.37.10:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2019.02.24-16.37.10:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2019.02.24-16.37.10:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2019.02.24-16.37.10:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2019.02.24-16.37.10:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2019.02.24-16.37.10:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Maps/Minimal_Default.umap"
-[2019.02.24-16.37.10:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2019.02.24-16.37.10:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Maps/StarterMap.umap"
-[2019.02.24-16.37.11:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2019.02.24-16.37.11:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2019.02.24-16.37.11:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2019.02.24-16.37.11:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2019.02.24-16.37.11:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2019.02.24-16.37.11:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2019.02.24-16.37.11:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2019.02.24-16.37.11:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2019.02.24-16.37.11:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2019.02.24-16.37.11:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2019.02.24-16.37.11:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2019.02.24-16.37.11:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2019.02.24-16.37.11:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2019.02.24-16.37.12:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2019.02.24-16.37.12:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2019.02.24-16.37.12:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2019.02.24-16.37.12:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2019.02.24-16.37.12:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2019.02.24-16.37.12:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Glass.uasset"
-[2019.02.24-16.37.12:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2019.02.24-16.37.12:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2019.02.24-16.37.12:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2019.02.24-16.37.12:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2019.02.24-16.37.12:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2019.02.24-16.37.12:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2019.02.24-16.37.12:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2019.02.24-16.37.12:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2019.02.24-16.37.12:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2019.02.24-16.37.12:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2019.02.24-16.37.12:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2019.02.24-16.37.12:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2019.02.24-16.37.12:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2019.02.24-16.37.12:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2019.02.24-16.37.12:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2019.02.24-16.37.12:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2019.02.24-16.37.12:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2019.02.24-16.37.12:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2019.02.24-16.37.12:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2019.02.24-16.37.12:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2019.02.24-16.37.12:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2019.02.24-16.37.12:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2019.02.24-16.37.12:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2019.02.24-16.37.12:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2019.02.24-16.37.12:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2019.02.24-16.37.12:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2019.02.24-16.37.12:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/P_Explosion.uasset"
-[2019.02.24-16.37.12:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/P_Fire.uasset"
-[2019.02.24-16.37.12:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/P_Smoke.uasset"
-[2019.02.24-16.37.12:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/P_Sparks.uasset"
-[2019.02.24-16.37.12:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2019.02.24-16.37.12:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2019.02.24-16.37.12:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2019.02.24-16.37.12:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2019.02.24-16.37.12:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2019.02.24-16.37.12:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2019.02.24-16.37.12:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2019.02.24-16.37.12:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2019.02.24-16.37.12:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2019.02.24-16.37.12:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2019.02.24-16.37.12:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2019.02.24-16.37.12:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/MaterialSphere.uasset"
-[2019.02.24-16.37.12:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Bush.uasset"
-[2019.02.24-16.37.12:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Chair.uasset"
-[2019.02.24-16.37.12:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2019.02.24-16.37.12:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Couch.uasset"
-[2019.02.24-16.37.12:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Door.uasset"
-[2019.02.24-16.37.12:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2019.02.24-16.37.12:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2019.02.24-16.37.12:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2019.02.24-16.37.12:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2019.02.24-16.37.12:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2019.02.24-16.37.12:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2019.02.24-16.37.12:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2019.02.24-16.37.12:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Rock.uasset"
-[2019.02.24-16.37.12:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Shelf.uasset"
-[2019.02.24-16.37.12:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Stairs.uasset"
-[2019.02.24-16.37.12:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_Statue.uasset"
-[2019.02.24-16.37.12:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_TableRound.uasset"
-[2019.02.24-16.37.12:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2019.02.24-16.37.12:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2019.02.24-16.37.12:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2019.02.24-16.37.12:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2019.02.24-16.37.12:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2019.02.24-16.37.12:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2019.02.24-16.37.12:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2019.02.24-16.37.12:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2019.02.24-16.37.12:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2019.02.24-16.37.12:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2019.02.24-16.37.12:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2019.02.24-16.37.12:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2019.02.24-16.37.12:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2019.02.24-16.37.12:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2019.02.24-16.37.12:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2019.02.24-16.37.12:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2019.02.24-16.37.12:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2019.02.24-16.37.12:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2019.02.24-16.37.12:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2019.02.24-16.37.12:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2019.02.24-16.37.12:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2019.02.24-16.37.12:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2019.02.24-16.37.12:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2019.02.24-16.37.12:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2019.02.24-16.37.12:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2019.02.24-16.37.12:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2019.02.24-16.37.12:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2019.02.24-16.37.12:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2019.02.24-16.37.12:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2019.02.24-16.37.12:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2019.02.24-16.37.12:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2019.02.24-16.37.12:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2019.02.24-16.37.12:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2019.02.24-16.37.12:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2019.02.24-16.37.13:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2019.02.24-16.37.13:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2019.02.24-16.37.13:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2019.02.24-16.37.13:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2019.02.24-16.37.13:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2019.02.24-16.37.14:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2019.02.24-16.37.15:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2019.02.24-16.37.15:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2019.02.24-16.37.15:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2019.02.24-16.37.15:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2019.02.24-16.37.15:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2019.02.24-16.37.15:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2019.02.24-16.37.15:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2019.02.24-16.37.15:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2019.02.24-16.37.15:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2019.02.24-16.37.15:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2019.02.24-16.37.15:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2019.02.24-16.37.15:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2019.02.24-16.37.15:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2019.02.24-16.37.15:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2019.02.24-16.37.15:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2019.02.24-16.37.16:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2019.02.24-16.37.16:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2019.02.24-16.37.16:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2019.02.24-16.37.18:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2019.02.24-16.37.18:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2019.02.24-16.37.18:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2019.02.24-16.37.18:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2019.02.24-16.37.18:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2019.02.24-16.37.20:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2019.02.24-16.37.20:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2019.02.24-16.37.20:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2019.02.24-16.37.20:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2019.02.24-16.37.21:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2019.02.24-16.37.21:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2019.02.24-16.37.21:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2019.02.24-16.37.21:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2019.02.24-16.37.21:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Door_M.uasset"
-[2019.02.24-16.37.21:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Door_N.uasset"
-[2019.02.24-16.37.21:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2019.02.24-16.37.21:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2019.02.24-16.37.21:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2019.02.24-16.37.21:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2019.02.24-16.37.21:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2019.02.24-16.37.21:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2019.02.24-16.37.21:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2019.02.24-16.37.21:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2019.02.24-16.37.21:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2019.02.24-16.37.21:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2019.02.24-16.37.22:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2019.02.24-16.37.22:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2019.02.24-16.37.22:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2019.02.24-16.37.22:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2019.02.24-16.37.23:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2019.02.24-16.37.24:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2019.02.24-16.37.24:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2019.02.24-16.37.24:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2019.02.24-16.37.25:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2019.02.24-16.37.25:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2019.02.24-16.37.26:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2019.02.24-16.37.26:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2019.02.24-16.37.26:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2019.02.24-16.37.26:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2019.02.24-16.37.26:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2019.02.24-16.37.26:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2019.02.24-16.37.27:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2019.02.24-16.37.28:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2019.02.24-16.37.28:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2019.02.24-16.37.28:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2019.02.24-16.37.30:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2019.02.24-16.37.30:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2019.02.24-16.37.30:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2019.02.24-16.37.31:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2019.02.24-16.37.31:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2019.02.24-16.37.31:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2019.02.24-16.37.31:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2019.02.24-16.37.31:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2019.02.24-16.37.31:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2019.02.24-16.37.31:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2019.02.24-16.37.31:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2019.02.24-16.37.31:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2019.02.24-16.37.32:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2019.02.24-16.37.32:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2019.02.24-16.37.32:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2019.02.24-16.37.32:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2019.02.24-16.37.32:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2019.02.24-16.37.32:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2019.02.24-16.37.32:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2019.02.24-16.37.32:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2019.02.24-16.37.32:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2019.02.24-16.37.32:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Water_M.uasset"
-[2019.02.24-16.37.32:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Water_N.uasset"
-[2019.02.24-16.37.32:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2019.02.24-16.37.32:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2019.02.24-16.37.33:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2019.02.24-16.37.33:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2019.02.24-16.37.34:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2019.02.24-16.37.35:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2019.02.24-16.37.35:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2019.02.24-16.37.36:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2019.02.24-16.37.36:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2019.02.24-16.37.36:693][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2019.02.24-16.37.36:694][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2019.02.24-16.37.36:777][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2019.02.24-16.37.37:763][  0]LogSavePackage: Save=12.06ms
-[2019.02.24-16.37.37:763][  0]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Floor_400x400ECE07F754B4CA5952A61599D812394B4.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2019.02.24-16.37.37:771][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2019.02.24-16.37.37:771][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2019.02.24-16.37.37:774][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.24-16.37.37:774][  0]LightingResults: New page: Lighting Build
-[2019.02.24-16.37.37:779][  0]MapCheck: New page: Map Check
-[2019.02.24-16.37.37:779][  0]LightingResults: New page: Lighting Build
-[2019.02.24-16.37.39:053][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.02.24-16.37.39:081][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-16.37.39:096][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-16.37.39:206][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.002ms to complete.
-[2019.02.24-16.37.39:206][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.433
-[2019.02.24-16.37.41:066][  0]LogCollectionManager: Loaded 0 collections in 0.004407 seconds
-[2019.02.24-16.37.41:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Collections/' took 0.01s
-[2019.02.24-16.37.41:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Developers/Krogmer/Collections/' took 0.01s
-[2019.02.24-16.37.41:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Collections/' took 0.01s
-[2019.02.24-16.37.41:136][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.02.24-16.37.41:161][  0]LogContentBrowser: Native class hierarchy populated in 0.0246 seconds. Added 2454 classes and 562 folders.
-[2019.02.24-16.37.41:179][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
-[2019.02.24-16.37.45:611][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0027 seconds. Added 0 classes and 0 folders.
-[2019.02.24-16.37.45:645][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.24-16.37.45:651][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.24-16.37.45:685][  0]LogSlate: Took 0.031049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.24-16.37.45:753][  0]LogRenderer: Reallocating scene render targets to support 1032x588 Format 10 NumSamples 1 (Frame:1).
-[2019.02.24-16.37.45:804][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.24-16.37.45:942][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2019.02.24-16.37.45:942][  0]LogLoad: (Engine Initialization) Total time: 55.16 seconds
-[2019.02.24-16.37.45:942][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.24-16.37.46:543][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.24-16.37.46:584][  1]LogAssetRegistry: Asset discovery search completed in 46.9515 seconds
-[2019.02.24-16.37.46:586][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.24-16.37.46:586][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.02.24-17.16.36:292][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.24-17.16.36:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.24-17.16.36:340][  0]LogInit: Computer: KROMGER
+[2019.02.24-17.16.36:341][  0]LogInit: User: Krogmer
+[2019.02.24-17.16.36:341][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.24-17.16.36:341][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.24-17.16.36:341][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.02.24-17.16.36:341][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.24-17.16.36:341][  0]LogMemory: Process Physical Memory: 278.31 MB used, 278.31 MB peak
+[2019.02.24-17.16.36:341][  0]LogMemory: Process Virtual Memory: 265.38 MB used, 265.38 MB peak
+[2019.02.24-17.16.36:341][  0]LogMemory: Physical Memory: 7341.39 MB used,  8999.74 MB free, 16341.13 MB total
+[2019.02.24-17.16.36:341][  0]LogMemory: Virtual Memory: 4834.36 MB used,  8999.74 MB free, 134217728.00 MB total
+[2019.02.24-17.16.36:383][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.02.24-17.16.36:383][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.02.24-17.16.36:869][  0]LogStreaming: Display: Took  0.486s to EndInitTextLocalization.
+[2019.02.24-17.16.36:869][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.24-17.16.36:920][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.24-17.16.36:920][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.24-17.16.37:191][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.24-17.16.37:237][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 ' (Feature Level 11_0)
+[2019.02.24-17.16.37:237][  0]LogD3D11RHI:       1480/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.24-17.16.37:240][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.24-17.16.37:240][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.24-17.16.37:240][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.24-17.16.37:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.24-17.16.37:251][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.24-17.16.37:251][  0]LogWindows: EnumDisplayDevices:
+[2019.02.24-17.16.37:251][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 ' (P:1 D:1)
+[2019.02.24-17.16.37:251][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
+[2019.02.24-17.16.37:252][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
+[2019.02.24-17.16.37:252][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.24-17.16.37:252][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 
+[2019.02.24-17.16.37:252][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.24-17.16.37:252][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.24-17.16.37:252][  0]LogRHI: Texture pool is 1036 MB (70% of 1480 MB)
+[2019.02.24-17.16.37:283][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2019.02.24-17.16.37:286][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2019.02.24-17.16.37:286][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.02.24-17.16.37:286][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.24-17.16.37:306][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.24-17.16.37:308][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Intermediate/Shaders/WorkingDirectory/9040/).
+[2019.02.24-17.16.37:308][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Krogmer/AppData/Local/Temp/UnrealShaderWorkingDir/6578469347767F07FEC8629FE65AD0B8/'.
+[2019.02.24-17.16.37:564][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.24-17.16.37:580][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.24-17.16.37:595][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.24-17.16.37:611][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.24-17.16.37:626][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.24-17.16.37:642][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.24-17.16.37:657][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.24-17.16.37:673][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.24-17.16.37:683][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.24-17.16.37:696][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.02.24-17.16.37:709][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.02.24-17.16.37:723][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.02.24-17.16.37:736][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.02.24-17.16.37:750][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.02.24-17.16.37:763][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.02.24-17.16.37:789][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.02.24-17.16.37:789][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.02.24-17.16.37:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.24-17.16.37:805][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.24-17.16.37:845][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.24-17.16.37:879][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.24-17.16.37:899][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.24-17.16.37:912][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.24-17.16.37:925][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.24-17.16.37:938][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.24-17.16.37:938][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.24-17.16.38:140][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.24-17.16.38:140][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.24-17.16.38:140][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.24-17.16.39:078][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.24-17.16.39:159][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.24-17.16.39:159][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.24-17.16.39:174][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.24-17.16.39:188][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Krogmer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.24-17.16.39:188][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.24-17.16.39:188][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.24-17.16.39:199][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.24-17.16.39:200][  0]LogSlate: Using Freetype 2.6.0
+[2019.02.24-17.16.39:200][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.24-17.16.39:200][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.24-17.16.39:377][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2019.02.24-17.16.39:699][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.24-17.16.39:870][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.24-17.16.39:874][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.24-17.16.39:874][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.24-17.16.39:874][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.24-17.16.39:874][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.02.24-17.16.39:874][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.02.24-17.16.39:925][  0]LogNetVersion: EscapeRoom , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3547860031)
+[2019.02.24-17.16.40:375][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.062514 seconds
+[2019.02.24-17.16.40:380][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.02.24-17.16.40:380][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.02.24-17.16.40:380][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.24-17.16.42:424][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.24-17.16.42:470][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.24-17.16.43:188][  0]SourceControl: Source control is disabled
+[2019.02.24-17.16.43:189][  0]SourceControl: Source control is disabled
+[2019.02.24-17.16.43:240][  0]SourceControl: Source control is disabled
+[2019.02.24-17.16.43:291][  0]SourceControl: Source control is disabled
+[2019.02.24-17.16.44:276][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.24-17.16.44:623][  0]LogOcInput: OculusInput pre-init called
+[2019.02.24-17.16.44:780][  0]LogEngine: Initializing Engine...
+[2019.02.24-17.16.44:781][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.24-17.16.44:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.24-17.16.44:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.24-17.16.44:989][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.24-17.16.45:013][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.24-17.16.45:033][  0]LogInit: FAudioDevice initialized.
+[2019.02.24-17.16.45:202][  0]LogDerivedDataCache: Saved boot cache 0.17s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.24-17.16.45:230][  0]LogInit: Texture streaming: Enabled
+[2019.02.24-17.16.45:261][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.24-17.16.45:285][  0]LogInit: Transaction tracking system initialized
+[2019.02.24-17.16.45:322][  0]BlueprintLog: New page: Editor Load
+[2019.02.24-17.16.45:436][  0]LocalizationService: Localization service is disabled
+[2019.02.24-17.16.45:654][  0]LogConsoleResponse: Display: 
+[2019.02.24-17.16.45:818][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.24-17.16.45:818][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.24-17.16.45:818][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.24-17.16.45:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.24-17.16.45:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.24-17.16.46:494][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/' took 0.02s
+[2019.02.24-17.16.46:503][  0]SourceControl: Source control is disabled
+[2019.02.24-17.16.46:503][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.24-17.16.46:503][  0]LightingResults: New page: Lighting Build
+[2019.02.24-17.16.46:507][  0]MapCheck: New page: Map Check
+[2019.02.24-17.16.46:507][  0]LightingResults: New page: Lighting Build
+[2019.02.24-17.16.46:686][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-17.16.46:691][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.24-17.16.46:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.24-17.16.46:796][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.227ms to complete.
+[2019.02.24-17.16.46:796][  0]LogFileHelpers: Loading map 'NewMap' took 0.293
+[2019.02.24-17.16.47:082][  0]LogCollectionManager: Loaded 0 collections in 0.003143 seconds
+[2019.02.24-17.16.47:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Collections/' took 0.01s
+[2019.02.24-17.16.47:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Developers/Krogmer/Collections/' took 0.01s
+[2019.02.24-17.16.47:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Collections/' took 0.01s
+[2019.02.24-17.16.47:128][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2019.02.24-17.16.47:137][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2454 classes and 562 folders.
+[2019.02.24-17.16.47:147][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.02.24-17.16.47:673][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2019.02.24-17.16.47:701][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.24-17.16.47:705][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.24-17.16.47:726][  0]LogSlate: Took 0.019216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.24-17.16.47:837][  0]LogRenderer: Reallocating scene render targets to support 1032x588 Format 10 NumSamples 1 (Frame:1).
+[2019.02.24-17.16.47:904][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.24-17.16.47:985][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2019.02.24-17.16.47:985][  0]LogLoad: (Engine Initialization) Total time: 37.98 seconds
+[2019.02.24-17.16.47:985][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.24-17.16.48:014][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.24-17.16.48:044][  1]LogAssetRegistry: Asset discovery search completed in 8.6897 seconds
+[2019.02.24-17.16.48:046][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.24-17.16.48:046][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.02.24-17.17.11:532][866]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2019.02.24-17.17.11:536][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.17.19:313][405]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.24-17.18.03:709][323]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.18.24:708][813]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2019.02.24-17.18.33:346][ 29]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.24-17.18.33:371][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.18.35:109][234]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.24-17.18.35:133][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.18.35:913][322]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.24-17.18.37:403][498]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2019.02.24-17.18.37:405][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.20.06:924][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.20.18:683][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.20.28:811][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.20.39:016][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.20.39:246][583]LogActorFactory: Actor Factory created SM_Chair
+[2019.02.24-17.20.40:114][675]LogActorFactory: Actor Factory created SM_Chair
+[2019.02.24-17.21.11:366][731]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.24-17.22.26:686][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.22.27:010][ 72]LogActorFactory: Actor Factory created SM_TableRound
+[2019.02.24-17.22.30:335][455]LogActorFactory: Actor Factory created SM_TableRound
+[2019.02.24-17.22.38:543][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.22.38:726][164]LogActorFactory: Actor Factory created SM_Couch
+[2019.02.24-17.22.40:940][416]LogActorFactory: Actor Factory created SM_Couch
+[2019.02.24-17.22.47:662][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2019.02.24-17.22.49:555][414]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Couch)
+[2019.02.24-17.22.49:580][414]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.22.51:336][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2019.02.24-17.22.52:627][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.24-17.23.03:404][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.23.37:122][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.24-17.23.38:364][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2019.02.24-17.23.45:044][468]Cmd: POLY SELECT ALL
+[2019.02.24-17.24.13:322][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.02.24-17.26.39:591][862]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.24-17.26.48:724][889]LogSavePackage: Save=32.81ms
+[2019.02.24-17.26.48:724][889]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto1967553FA4544D56A622D6380EAD38A98.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2019.02.24-17.26.48:727][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2019.02.24-17.26.48:731][889]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.078
+[2019.02.24-17.26.48:731][889]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.078
+[2019.02.24-17.27.22:255][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.27.28:524][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.27.33:175][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.27.39:052][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.27.44:865][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.27.51:118][563]Cmd: MODE GRID=0
+[2019.02.24-17.27.55:149][ 45]Cmd: MODE GRID=1
+[2019.02.24-17.28.00:117][636]Cmd: MODE ROTGRID=0
+[2019.02.24-17.28.00:724][708]Cmd: MODE ROTGRID=1
+[2019.02.24-17.28.21:716][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.28.27:211][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.29.04:969][259]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.29.05:909][363]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.05:909][363]LogEditorTransaction: Undo Scale Actors
+[2019.02.24-17.29.06:381][408]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.06:381][408]LogEditorTransaction: Undo Scale Actors
+[2019.02.24-17.29.06:826][459]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.06:826][459]LogEditorTransaction: Undo Rotate Actors
+[2019.02.24-17.29.08:366][639]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.08:366][639]LogEditorTransaction: Undo Rotate Actors
+[2019.02.24-17.29.08:949][707]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.08:949][707]LogEditorTransaction: Undo Move Actors
+[2019.02.24-17.29.09:375][756]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.09:375][756]LogEditorTransaction: Undo Move Actors
+[2019.02.24-17.29.09:780][804]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.09:780][804]LogEditorTransaction: Undo Move Actors
+[2019.02.24-17.29.10:453][884]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.10:453][884]LogEditorTransaction: Undo Move Actors
+[2019.02.24-17.29.11:783][ 14]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.11:783][ 14]LogEditorTransaction: Undo Move Actors
+[2019.02.24-17.29.12:399][ 52]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.12:399][ 52]LogEditorTransaction: Undo Move Actors
+[2019.02.24-17.29.12:993][ 88]Cmd: TRANSACTION UNDO
+[2019.02.24-17.29.12:993][ 88]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.24-17.29.21:595][481]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.29.24:421][818]Cmd: STAT FPS
+[2019.02.24-17.29.46:214][315]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.29.55:105][371]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.29.56:049][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.30.43:110][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.30.49:139][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.31.03:271][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.31.04:086][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.31.05:289][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.31.22:018][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.31.27:308][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.31.33:840][639]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.31.37:963][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.31.41:197][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-17.36.49:683][ 62]LogSavePackage: Save=25.90ms
+[2019.02.24-17.36.49:684][ 62]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto2D19708F04610609D27F8889402610FB2.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2019.02.24-17.36.49:687][ 62]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2019.02.24-17.36.49:690][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.059
+[2019.02.24-17.36.49:690][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2019.02.24-17.38.00:908][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.38.01:926][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-17.38.02:036][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.24-17.38.02:074][762]LogSavePackage: Save=24.64ms
+[2019.02.24-17.38.02:075][762]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap0BE74B8A447C0E4B85FF4EA2E1F3285B.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.24-17.38.02:082][762]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.24-17.38.02:100][762]LogFileHelpers: Saving map 'NewMap' took 0.167
+[2019.02.24-17.38.19:158][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
