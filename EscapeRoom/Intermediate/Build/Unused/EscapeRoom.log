@@ -1,0 +1,6 @@
+﻿  Performing full C++ include scan (hot reloading a new target)
+  Creating makefile for hot reloading EscapeRoomEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Target is up to date
+  Deploying EscapeRoomEditor Win64 Development...
+  Total build time: 12,77 seconds (NoActionsToExecute executor: 0,00 seconds)

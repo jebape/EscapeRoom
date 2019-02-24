@@ -1,0 +1,3 @@
+C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Source\EscapeRoom\EscapeRoom.Build.cs
+C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Source\EscapeRoom.Target.cs
+C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Source\EscapeRoomEditor.Target.cs
