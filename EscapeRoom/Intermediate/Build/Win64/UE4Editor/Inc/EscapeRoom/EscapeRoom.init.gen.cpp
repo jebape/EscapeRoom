@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeEscapeRoom_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/EscapeRoom",
 				PKG_CompiledIn | 0x00000000,
-				0xE38E1FAF,
-				0x4EC36CA7,
+				0xD44DE0F5,
+				0xE60F20E0,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
