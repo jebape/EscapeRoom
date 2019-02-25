@@ -1,4 +1,4 @@
-﻿Log file open, 02/24/19 18:16:11
+﻿Log file open, 02/25/19 20:09:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: EscapeRoom
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1775646327) SRandInit(-1775646327).
+LogInit: Display: RandInit(-1456437098) SRandInit(-1456437097).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.290081
+LogStats: Stats thread started at 0.318469
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,101 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.275s to configure plugins.
-LogModuleManager: Warning: Module file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Binaries/Win64/UE4Editor-EscapeRoom-2223.dll is missing. This is likely a stale module that must be recompiled.
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
-LogInit: Warning: Incompatible or missing module: UE4Editor-EscapeRoom.dll
-Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom Development Win64 -project="C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build.
-Creating makefile for EscapeRoom (ini files are newer than UBTMakefile)
-@progress push 5%
-@progress pop
-Target is up to date
-Total build time: 12,81 seconds (NoActionsToExecute executor: 0,00 seconds)
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Binaries/Win64/UE4Editor-EscapeRoom.dll (API version 3944462).
+LogStreaming: Display: Took  0.336s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Binaries/Win64/UE4Editor-EscapeRoom-2952.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -313,266 +220,444 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.24-17.16.36:292][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-17.16.36:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.24-17.16.36:340][  0]LogInit: Computer: KROMGER
-[2019.02.24-17.16.36:341][  0]LogInit: User: Krogmer
-[2019.02.24-17.16.36:341][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.24-17.16.36:341][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.02.24-17.16.36:341][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.02.24-17.16.36:341][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.24-17.16.36:341][  0]LogMemory: Process Physical Memory: 278.31 MB used, 278.31 MB peak
-[2019.02.24-17.16.36:341][  0]LogMemory: Process Virtual Memory: 265.38 MB used, 265.38 MB peak
-[2019.02.24-17.16.36:341][  0]LogMemory: Physical Memory: 7341.39 MB used,  8999.74 MB free, 16341.13 MB total
-[2019.02.24-17.16.36:341][  0]LogMemory: Virtual Memory: 4834.36 MB used,  8999.74 MB free, 134217728.00 MB total
-[2019.02.24-17.16.36:383][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.02.24-17.16.36:383][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.02.24-17.16.36:869][  0]LogStreaming: Display: Took  0.486s to EndInitTextLocalization.
-[2019.02.24-17.16.36:869][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.24-17.16.36:920][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.24-17.16.36:920][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.24-17.16.37:191][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.24-17.16.37:237][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 ' (Feature Level 11_0)
-[2019.02.24-17.16.37:237][  0]LogD3D11RHI:       1480/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.24-17.16.37:240][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.24-17.16.37:240][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.24-17.16.37:240][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.24-17.16.37:251][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.24-17.16.37:251][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.24-17.16.37:251][  0]LogWindows: EnumDisplayDevices:
-[2019.02.24-17.16.37:251][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 ' (P:1 D:1)
-[2019.02.24-17.16.37:251][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
-[2019.02.24-17.16.37:252][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
-[2019.02.24-17.16.37:252][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.24-17.16.37:252][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 
-[2019.02.24-17.16.37:252][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.24-17.16.37:252][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.24-17.16.37:252][  0]LogRHI: Texture pool is 1036 MB (70% of 1480 MB)
-[2019.02.24-17.16.37:283][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
-[2019.02.24-17.16.37:286][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2019.02.24-17.16.37:286][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.02.24-17.16.37:286][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.24-17.16.37:306][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.24-17.16.37:308][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Intermediate/Shaders/WorkingDirectory/9040/).
-[2019.02.24-17.16.37:308][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Krogmer/AppData/Local/Temp/UnrealShaderWorkingDir/6578469347767F07FEC8629FE65AD0B8/'.
-[2019.02.24-17.16.37:564][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.24-17.16.37:580][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.24-17.16.37:595][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.24-17.16.37:611][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.24-17.16.37:626][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.24-17.16.37:642][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.24-17.16.37:657][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.24-17.16.37:673][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.24-17.16.37:683][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.24-17.16.37:696][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.02.24-17.16.37:709][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.02.24-17.16.37:723][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.02.24-17.16.37:736][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.02.24-17.16.37:750][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.02.24-17.16.37:763][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.02.24-17.16.37:789][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.02.24-17.16.37:789][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.02.24-17.16.37:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-17.16.37:805][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.24-17.16.37:845][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.24-17.16.37:879][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.24-17.16.37:899][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.24-17.16.37:912][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.24-17.16.37:925][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.24-17.16.37:938][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.24-17.16.37:938][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.24-17.16.38:140][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.24-17.16.38:140][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.24-17.16.38:140][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.24-17.16.39:078][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.24-17.16.39:159][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.02.24-17.16.39:159][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.24-17.16.39:160][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.24-17.16.39:174][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.24-17.16.39:188][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Krogmer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.24-17.16.39:188][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.24-17.16.39:188][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.24-17.16.39:199][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.24-17.16.39:200][  0]LogSlate: Using Freetype 2.6.0
-[2019.02.24-17.16.39:200][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.24-17.16.39:200][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.24-17.16.39:377][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2019.02.24-17.16.39:699][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-17.16.39:870][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.24-17.16.39:874][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.24-17.16.39:874][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.24-17.16.39:874][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.24-17.16.39:874][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.02.24-17.16.39:874][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.02.24-17.16.39:925][  0]LogNetVersion: EscapeRoom , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3547860031)
-[2019.02.24-17.16.40:375][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.062514 seconds
-[2019.02.24-17.16.40:380][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.02.24-17.16.40:380][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2019.02.24-17.16.40:380][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.24-17.16.42:424][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.24-17.16.42:470][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.24-17.16.43:188][  0]SourceControl: Source control is disabled
-[2019.02.24-17.16.43:189][  0]SourceControl: Source control is disabled
-[2019.02.24-17.16.43:240][  0]SourceControl: Source control is disabled
-[2019.02.24-17.16.43:291][  0]SourceControl: Source control is disabled
-[2019.02.24-17.16.44:276][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.24-17.16.44:623][  0]LogOcInput: OculusInput pre-init called
-[2019.02.24-17.16.44:780][  0]LogEngine: Initializing Engine...
-[2019.02.24-17.16.44:781][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.24-17.16.44:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-17.16.44:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-17.16.44:989][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.24-17.16.45:013][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-17.16.45:033][  0]LogInit: FAudioDevice initialized.
-[2019.02.24-17.16.45:202][  0]LogDerivedDataCache: Saved boot cache 0.17s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.02.24-17.16.45:230][  0]LogInit: Texture streaming: Enabled
-[2019.02.24-17.16.45:261][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.24-17.16.45:285][  0]LogInit: Transaction tracking system initialized
-[2019.02.24-17.16.45:322][  0]BlueprintLog: New page: Editor Load
-[2019.02.24-17.16.45:436][  0]LocalizationService: Localization service is disabled
-[2019.02.24-17.16.45:654][  0]LogConsoleResponse: Display: 
-[2019.02.24-17.16.45:818][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.24-17.16.45:818][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.24-17.16.45:818][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.24-17.16.45:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-17.16.45:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-17.16.46:494][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/' took 0.02s
-[2019.02.24-17.16.46:503][  0]SourceControl: Source control is disabled
-[2019.02.24-17.16.46:503][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.24-17.16.46:503][  0]LightingResults: New page: Lighting Build
-[2019.02.24-17.16.46:507][  0]MapCheck: New page: Map Check
-[2019.02.24-17.16.46:507][  0]LightingResults: New page: Lighting Build
-[2019.02.24-17.16.46:686][  0]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-17.16.46:691][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-17.16.46:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-17.16.46:796][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.227ms to complete.
-[2019.02.24-17.16.46:796][  0]LogFileHelpers: Loading map 'NewMap' took 0.293
-[2019.02.24-17.16.47:082][  0]LogCollectionManager: Loaded 0 collections in 0.003143 seconds
-[2019.02.24-17.16.47:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Collections/' took 0.01s
-[2019.02.24-17.16.47:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Developers/Krogmer/Collections/' took 0.01s
-[2019.02.24-17.16.47:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Collections/' took 0.01s
-[2019.02.24-17.16.47:128][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
-[2019.02.24-17.16.47:137][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2454 classes and 562 folders.
-[2019.02.24-17.16.47:147][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2019.02.24-17.16.47:673][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0029 seconds. Added 0 classes and 0 folders.
-[2019.02.24-17.16.47:701][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.24-17.16.47:705][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.24-17.16.47:726][  0]LogSlate: Took 0.019216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.24-17.16.47:837][  0]LogRenderer: Reallocating scene render targets to support 1032x588 Format 10 NumSamples 1 (Frame:1).
-[2019.02.24-17.16.47:904][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.24-17.16.47:985][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2019.02.24-17.16.47:985][  0]LogLoad: (Engine Initialization) Total time: 37.98 seconds
-[2019.02.24-17.16.47:985][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.24-17.16.48:014][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.24-17.16.48:044][  1]LogAssetRegistry: Asset discovery search completed in 8.6897 seconds
-[2019.02.24-17.16.48:046][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.24-17.16.48:046][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2019.02.24-17.17.11:532][866]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
-[2019.02.24-17.17.11:536][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.17.19:313][405]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.02.24-17.18.03:709][323]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.18.24:708][813]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
-[2019.02.24-17.18.33:346][ 29]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2019.02.24-17.18.33:371][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.18.35:109][234]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2019.02.24-17.18.35:133][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.18.35:913][322]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.02.24-17.18.37:403][498]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
-[2019.02.24-17.18.37:405][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.20.06:924][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.20.18:683][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.20.28:811][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.20.39:016][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.20.39:246][583]LogActorFactory: Actor Factory created SM_Chair
-[2019.02.24-17.20.40:114][675]LogActorFactory: Actor Factory created SM_Chair
-[2019.02.24-17.21.11:366][731]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.02.24-17.22.26:686][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.22.27:010][ 72]LogActorFactory: Actor Factory created SM_TableRound
-[2019.02.24-17.22.30:335][455]LogActorFactory: Actor Factory created SM_TableRound
-[2019.02.24-17.22.38:543][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.22.38:726][164]LogActorFactory: Actor Factory created SM_Couch
-[2019.02.24-17.22.40:940][416]LogActorFactory: Actor Factory created SM_Couch
-[2019.02.24-17.22.47:662][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
-[2019.02.24-17.22.49:555][414]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Couch)
-[2019.02.24-17.22.49:580][414]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.22.51:336][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
-[2019.02.24-17.22.52:627][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.02.24-17.23.03:404][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.23.37:122][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.02.24-17.23.38:364][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
-[2019.02.24-17.23.45:044][468]Cmd: POLY SELECT ALL
-[2019.02.24-17.24.13:322][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2019.02.24-17.26.39:591][862]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.24-17.26.48:724][889]LogSavePackage: Save=32.81ms
-[2019.02.24-17.26.48:724][889]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto1967553FA4544D56A622D6380EAD38A98.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
-[2019.02.24-17.26.48:727][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
-[2019.02.24-17.26.48:731][889]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.078
-[2019.02.24-17.26.48:731][889]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.078
-[2019.02.24-17.27.22:255][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.27.28:524][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.27.33:175][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.27.39:052][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.27.44:865][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.27.51:118][563]Cmd: MODE GRID=0
-[2019.02.24-17.27.55:149][ 45]Cmd: MODE GRID=1
-[2019.02.24-17.28.00:117][636]Cmd: MODE ROTGRID=0
-[2019.02.24-17.28.00:724][708]Cmd: MODE ROTGRID=1
-[2019.02.24-17.28.21:716][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.28.27:211][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.29.04:969][259]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.29.05:909][363]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.05:909][363]LogEditorTransaction: Undo Scale Actors
-[2019.02.24-17.29.06:381][408]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.06:381][408]LogEditorTransaction: Undo Scale Actors
-[2019.02.24-17.29.06:826][459]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.06:826][459]LogEditorTransaction: Undo Rotate Actors
-[2019.02.24-17.29.08:366][639]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.08:366][639]LogEditorTransaction: Undo Rotate Actors
-[2019.02.24-17.29.08:949][707]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.08:949][707]LogEditorTransaction: Undo Move Actors
-[2019.02.24-17.29.09:375][756]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.09:375][756]LogEditorTransaction: Undo Move Actors
-[2019.02.24-17.29.09:780][804]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.09:780][804]LogEditorTransaction: Undo Move Actors
-[2019.02.24-17.29.10:453][884]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.10:453][884]LogEditorTransaction: Undo Move Actors
-[2019.02.24-17.29.11:783][ 14]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.11:783][ 14]LogEditorTransaction: Undo Move Actors
-[2019.02.24-17.29.12:399][ 52]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.12:399][ 52]LogEditorTransaction: Undo Move Actors
-[2019.02.24-17.29.12:993][ 88]Cmd: TRANSACTION UNDO
-[2019.02.24-17.29.12:993][ 88]LogEditorTransaction: Undo Clicking on Actors
-[2019.02.24-17.29.21:595][481]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.29.24:421][818]Cmd: STAT FPS
-[2019.02.24-17.29.46:214][315]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.29.55:105][371]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.29.56:049][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.30.43:110][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.30.49:139][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.31.03:271][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.31.04:086][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.31.05:289][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.31.22:018][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.31.27:308][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.31.33:840][639]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.31.37:963][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.31.41:197][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-17.36.49:683][ 62]LogSavePackage: Save=25.90ms
-[2019.02.24-17.36.49:684][ 62]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto2D19708F04610609D27F8889402610FB2.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
-[2019.02.24-17.36.49:687][ 62]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap
-[2019.02.24-17.36.49:690][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.059
-[2019.02.24-17.36.49:690][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
-[2019.02.24-17.38.00:908][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.38.01:926][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-17.38.02:036][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.24-17.38.02:074][762]LogSavePackage: Save=24.64ms
-[2019.02.24-17.38.02:075][762]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap0BE74B8A447C0E4B85FF4EA2E1F3285B.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
-[2019.02.24-17.38.02:082][762]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
-[2019.02.24-17.38.02:100][762]LogFileHelpers: Saving map 'NewMap' took 0.167
-[2019.02.24-17.38.19:158][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.25-19.10.03:258][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.25-19.10.03:258][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.25-19.10.03:288][  0]LogInit: Computer: KROMGER
+[2019.02.25-19.10.03:288][  0]LogInit: User: Krogmer
+[2019.02.25-19.10.03:288][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.25-19.10.03:288][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.25-19.10.03:288][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.02.25-19.10.03:288][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.25-19.10.03:288][  0]LogMemory: Process Physical Memory: 273.95 MB used, 273.95 MB peak
+[2019.02.25-19.10.03:288][  0]LogMemory: Process Virtual Memory: 264.63 MB used, 264.63 MB peak
+[2019.02.25-19.10.03:288][  0]LogMemory: Physical Memory: 6507.61 MB used,  9833.52 MB free, 16341.13 MB total
+[2019.02.25-19.10.03:288][  0]LogMemory: Virtual Memory: 4793.01 MB used,  9833.52 MB free, 134217728.00 MB total
+[2019.02.25-19.10.03:324][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.02.25-19.10.03:324][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.02.25-19.10.03:809][  0]LogStreaming: Display: Took  0.485s to EndInitTextLocalization.
+[2019.02.25-19.10.03:809][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.25-19.10.03:859][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.25-19.10.03:859][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.25-19.10.04:157][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.25-19.10.04:198][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 ' (Feature Level 11_0)
+[2019.02.25-19.10.04:198][  0]LogD3D11RHI:       1480/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.25-19.10.04:201][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.25-19.10.04:201][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.25-19.10.04:201][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.25-19.10.04:211][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.25-19.10.04:211][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.25-19.10.04:211][  0]LogWindows: EnumDisplayDevices:
+[2019.02.25-19.10.04:211][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 ' (P:1 D:1)
+[2019.02.25-19.10.04:211][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
+[2019.02.25-19.10.04:212][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 ' (P:0 D:0)
+[2019.02.25-19.10.04:212][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.25-19.10.04:212][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 
+[2019.02.25-19.10.04:212][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.25-19.10.04:212][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.25-19.10.04:212][  0]LogRHI: Texture pool is 1036 MB (70% of 1480 MB)
+[2019.02.25-19.10.04:243][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2019.02.25-19.10.04:246][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2019.02.25-19.10.04:246][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.02.25-19.10.04:246][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.25-19.10.04:268][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.25-19.10.04:270][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Intermediate/Shaders/WorkingDirectory/12620/).
+[2019.02.25-19.10.04:271][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Krogmer/AppData/Local/Temp/UnrealShaderWorkingDir/A24F30EE49CABBEF4D805BBAF0B7F425/'.
+[2019.02.25-19.10.04:665][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.25-19.10.04:689][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.25-19.10.04:709][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.25-19.10.04:731][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.25-19.10.04:750][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.25-19.10.04:769][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.25-19.10.04:789][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.25-19.10.04:807][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.25-19.10.04:819][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.25-19.10.04:836][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.02.25-19.10.04:860][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.02.25-19.10.04:877][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.02.25-19.10.04:891][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.02.25-19.10.04:912][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.02.25-19.10.04:927][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.02.25-19.10.04:958][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.02.25-19.10.04:958][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.02.25-19.10.04:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-19.10.04:977][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.25-19.10.05:019][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.25-19.10.05:032][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.25-19.10.05:045][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.25-19.10.05:059][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.25-19.10.05:072][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.25-19.10.05:090][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.25-19.10.05:090][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.25-19.10.05:319][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.25-19.10.05:319][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.25-19.10.05:319][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.25-19.10.06:327][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.25-19.10.06:415][  0]LogDerivedDataCache: Loaded boot cache 0.09s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.25-19.10.06:415][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.02.25-19.10.06:416][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.25-19.10.06:416][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.25-19.10.06:416][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.25-19.10.06:416][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.25-19.10.06:431][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.25-19.10.06:445][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Krogmer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.25-19.10.06:445][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.25-19.10.06:445][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.25-19.10.06:457][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.25-19.10.06:457][  0]LogSlate: Using Freetype 2.6.0
+[2019.02.25-19.10.06:458][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.25-19.10.06:458][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.25-19.10.06:667][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.02.25-19.10.07:016][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.25-19.10.07:217][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.25-19.10.07:224][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.25-19.10.07:224][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.25-19.10.07:224][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.25-19.10.07:224][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.02.25-19.10.07:224][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.02.25-19.10.07:276][  0]LogNetVersion: EscapeRoom , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3547860031)
+[2019.02.25-19.10.07:756][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.066262 seconds
+[2019.02.25-19.10.07:762][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.02.25-19.10.07:763][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.02.25-19.10.07:763][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.25-19.10.09:940][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.25-19.10.09:988][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.25-19.10.10:770][  0]SourceControl: Source control is disabled
+[2019.02.25-19.10.10:770][  0]SourceControl: Source control is disabled
+[2019.02.25-19.10.10:815][  0]SourceControl: Source control is disabled
+[2019.02.25-19.10.10:858][  0]SourceControl: Source control is disabled
+[2019.02.25-19.10.11:936][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.25-19.10.12:282][  0]LogOcInput: OculusInput pre-init called
+[2019.02.25-19.10.12:454][  0]LogEngine: Initializing Engine...
+[2019.02.25-19.10.12:456][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.25-19.10.12:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.25-19.10.12:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.25-19.10.12:708][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.25-19.10.12:733][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-19.10.12:754][  0]LogInit: FAudioDevice initialized.
+[2019.02.25-19.10.12:912][  0]LogDerivedDataCache: Saved boot cache 0.16s 74MB C:/Users/Krogmer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.25-19.10.12:934][  0]LogInit: Texture streaming: Enabled
+[2019.02.25-19.10.12:969][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.25-19.10.12:996][  0]LogInit: Transaction tracking system initialized
+[2019.02.25-19.10.13:040][  0]BlueprintLog: New page: Editor Load
+[2019.02.25-19.10.13:184][  0]LocalizationService: Localization service is disabled
+[2019.02.25-19.10.13:349][  0]LogConsoleResponse: Display: 
+[2019.02.25-19.10.13:524][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.25-19.10.13:524][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.25-19.10.13:524][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.25-19.10.13:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.25-19.10.13:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.25-19.10.14:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/' took 0.02s
+[2019.02.25-19.10.14:303][  0]SourceControl: Source control is disabled
+[2019.02.25-19.10.14:303][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.25-19.10.14:304][  0]LightingResults: New page: Lighting Build
+[2019.02.25-19.10.14:308][  0]MapCheck: New page: Map Check
+[2019.02.25-19.10.14:308][  0]LightingResults: New page: Lighting Build
+[2019.02.25-19.10.14:925][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.02.25-19.10.14:932][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.25-19.10.14:945][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.25-19.10.15:054][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.636ms to complete.
+[2019.02.25-19.10.15:054][  0]LogFileHelpers: Loading map 'NewMap' took 0.751
+[2019.02.25-19.10.15:509][  0]LogCollectionManager: Loaded 0 collections in 0.003282 seconds
+[2019.02.25-19.10.15:576][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Collections/' took 0.01s
+[2019.02.25-19.10.15:576][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Developers/Krogmer/Collections/' took 0.01s
+[2019.02.25-19.10.15:576][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/Collections/' took 0.01s
+[2019.02.25-19.10.15:576][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.25-19.10.15:589][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2455 classes and 562 folders.
+[2019.02.25-19.10.15:617][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.02.25-19.10.17:008][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2019.02.25-19.10.17:367][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.25-19.10.17:373][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.25-19.10.17:391][  0]LogSlate: Took 0.016340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.25-19.10.17:625][  0]LogRenderer: Reallocating scene render targets to support 1032x588 Format 10 NumSamples 1 (Frame:1).
+[2019.02.25-19.10.17:785][  0]LogSlate: Took 0.013936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.25-19.10.17:862][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.02.25-19.10.17:862][  0]LogLoad: (Engine Initialization) Total time: 20.66 seconds
+[2019.02.25-19.10.17:862][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.25-19.10.17:981][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.25-19.10.18:199][  2]LogAssetRegistry: Asset discovery search completed in 11.5550 seconds
+[2019.02.25-19.10.18:201][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.25-19.10.18:201][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2019.02.25-19.10.35:245][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-19.10.49:593][191]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.25-19.18.55:315][159]Candidate modules for hot reload:
+[2019.02.25-19.18.55:317][159]  EscapeRoom
+[2019.02.25-19.18.55:318][159]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,2895 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.25-19.18.55:326][159]Warning: Starting HotReload took  0.2s.
+[2019.02.25-19.19.41:592][ 18]LogSlate: Took 0.080491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.25-19.20.54:628][579]LogContentBrowser: Verbose: The majority of assets in the view are of type: Class
+[2019.02.25-19.21.19:982][373]CompilerResultsLog: New page: Compilation - Feb 25, 2019, 9:21:19 PM
+[2019.02.25-19.21.19:996][373]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.25-19.21.19:996][373]CompilerResultsLog: Creating makefile for hot reloading EscapeRoom (ini files are newer than UBTMakefile)
+[2019.02.25-19.21.19:996][373]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.25-19.21.19:997][373]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.02.25-19.21.19:997][373]CompilerResultsLog: PositionReport.cpp
+[2019.02.25-19.21.19:997][373]CompilerResultsLog: [2/3] Link UE4Editor-EscapeRoom-2895.dll
+[2019.02.25-19.21.19:997][373]CompilerResultsLog: [3/3] Link UE4Editor-EscapeRoom-2895.lib
+[2019.02.25-19.21.19:997][373]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2895.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2895.exp
+[2019.02.25-19.21.19:998][373]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2895.suppressed.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2895.suppressed.exp
+[2019.02.25-19.21.19:999][373]CompilerResultsLog: Total build time: 143,19 seconds (Local executor: 102,11 seconds)
+[2019.02.25-19.21.19:999][373]LogMainFrame: MainFrame: Module compiling took 144.792 seconds
+[2019.02.25-19.21.45:155][373]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0017 seconds. Added 2 classes and 2 folders.
+[2019.02.25-19.21.45:157][373]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.25-19.21.45:673][373]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2455 classes and 562 folders.
+[2019.02.25-19.21.45:993][373]Display: HotReload took 170.9s.
+[2019.02.25-19.22.05:910][227]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-19.22.06:080][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-19.22.06:214][227]PIE: New page: PIE session: NewMap (Feb 25, 2019, 9:22:06 PM)
+[2019.02.25-19.22.06:234][227]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.25-19.22.06:308][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073378s)
+[2019.02.25-19.22.06:311][227]LogAIModule: Creating AISystem for world NewMap
+[2019.02.25-19.22.06:316][227]LogPlayLevel: PIE: World Init took: (0.007653s)
+[2019.02.25-19.22.06:317][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.082542s)
+[2019.02.25-19.22.06:414][227]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-19.22.06:431][227]LogInit: FAudioDevice initialized.
+[2019.02.25-19.22.06:581][227]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeRoom.EscapeRoomGameMode'
+[2019.02.25-19.22.06:582][227]LogLoad: Game class is 'GameModeBase'
+[2019.02.25-19.22.06:782][227]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.25-20.22.06
+[2019.02.25-19.22.06:823][227]LogWorld: Bringing up level for play took: 0.049058
+[2019.02.25-19.22.07:228][227]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2019.02.25-19.22.07:379][227]LogTemp: Position report reporting for duty!
+[2019.02.25-19.22.07:380][227]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-19.22.07:380][227]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-19.22.07:418][227]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.658
+[2019.02.25-19.22.43:735][377]Cmd: POLY SELECT ADJACENT WALLS
+[2019.02.25-19.37.55:826][413]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.37.58:186][649]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Couch)
+[2019.02.25-19.37.59:460][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.37.59:518][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2019.02.25-19.38.00:163][650]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Couch)
+[2019.02.25-19.38.00:225][650]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.38.01:439][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2019.02.25-19.38.03:857][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-19.38.06:030][224]LogSlate: Took 0.016708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.25-19.38.24:041][171]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.39.26:786][611]LogSavePackage: Save=119.99ms
+[2019.02.25-19.39.26:786][611]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto12431936949FCD47CD10641A7E6E4CC21.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2019.02.25-19.39.26:805][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2019.02.25-19.39.26:898][611]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.361
+[2019.02.25-19.39.26:899][611]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.361
+[2019.02.25-19.40.26:132][155]LogSlate: Window 'Message' being destroyed
+[2019.02.25-19.40.26:262][155]Cmd: RecompileShaders /Engine/Private/SlateElementPixelShader.usf
+[2019.02.25-19.40.27:819][155]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.25-19.40.31:801][155]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.25-19.40.31:802][155]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.25-19.40.31:802][155]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.25-19.40.31:802][155]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.25-19.40.31:802][155]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.25-19.40.31:802][155]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.25-19.40.31:802][155]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-19.40.31:802][155]LogShaderCompilers: Warning: 		[RecompileShaders SingleShader] took [3.9815] s
+[2019.02.25-19.40.34:851][155]LogSlate: Window 'Message' being destroyed
+[2019.02.25-19.40.59:272][918]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.25-19.41.06:615][668]LogSlate: Window 'Message' being destroyed
+[2019.02.25-19.41.08:010][668]LogSlate: Window 'Message' being destroyed
+[2019.02.25-19.41.08:052][668]Cmd: RecompileShaders /Engine/Private/SlateElementPixelShader.usf
+[2019.02.25-19.41.08:892][668]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.25-19.41.09:914][668]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.25-19.41.09:915][668]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.25-19.41.09:916][668]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.25-19.41.09:916][668]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.25-19.41.09:916][668]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.25-19.41.09:916][668]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-19.41.09:916][668]LogShaderCompilers: Warning: 		[RecompileShaders SingleShader] took [1.0234] s
+[2019.02.25-19.41.11:653][668]LogSlate: Window 'Message' being destroyed
+[2019.02.25-19.41.19:668][605]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.02.25-19.41.19:671][605]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.02.25-19.42.27:163][ 21]Candidate modules for hot reload:
+[2019.02.25-19.42.27:163][ 21]  EscapeRoom
+[2019.02.25-19.42.27:164][ 21]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,654 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.25-19.42.27:168][ 21]Warning: Starting HotReload took  0.1s.
+[2019.02.25-19.42.42:195][812]CompilerResultsLog: New page: Compilation - Feb 25, 2019, 9:42:42 PM
+[2019.02.25-19.42.42:195][812]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.25-19.42.42:195][812]CompilerResultsLog: Creating makefile for hot reloading EscapeRoom (ini files are newer than UBTMakefile)
+[2019.02.25-19.42.42:195][812]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.25-19.42.42:195][812]CompilerResultsLog: Target is up to date
+[2019.02.25-19.42.42:196][812]CompilerResultsLog: Total build time: 14,65 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.02.25-19.42.42:196][812]LogMainFrame: MainFrame: Module compiling took 15.046 seconds
+[2019.02.25-19.42.42:222][812]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2455 classes and 562 folders.
+[2019.02.25-19.42.42:222][812]Display: HotReload took 15.1s.
+[2019.02.25-19.42.56:163][478]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-19.42.56:176][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-19.42.56:176][478]PIE: New page: PIE session: NewMap (Feb 25, 2019, 9:42:56 PM)
+[2019.02.25-19.42.56:176][478]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.25-19.42.56:178][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001970s)
+[2019.02.25-19.42.56:179][478]LogAIModule: Creating AISystem for world NewMap
+[2019.02.25-19.42.56:180][478]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2019.02.25-19.42.56:181][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004444s)
+[2019.02.25-19.42.56:209][478]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-19.42.56:221][478]LogInit: FAudioDevice initialized.
+[2019.02.25-19.42.56:251][478]LogLoad: Game class is 'GameModeBase'
+[2019.02.25-19.42.56:252][478]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.25-20.42.56
+[2019.02.25-19.42.56:252][478]LogWorld: Bringing up level for play took: 0.000780
+[2019.02.25-19.42.56:253][478]LogTemp: Position report reporting for duty!
+[2019.02.25-19.42.56:254][478]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-19.42.56:254][478]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-19.42.56:254][478]LogTemp: Position report reporting for duty!
+[2019.02.25-19.42.56:254][478]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-19.42.56:254][478]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-19.42.56:254][478]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.494
+[2019.02.25-19.43.47:816][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.43.50:502][906]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.43.50:702][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.25-19.43.50:745][906]LogSavePackage: Save=28.01ms
+[2019.02.25-19.43.50:745][906]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMapCDB36C634D5E892934A43288EECCB16E.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.25-19.43.50:753][906]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.25-19.43.50:774][906]LogFileHelpers: Saving map 'NewMap' took 0.230
+[2019.02.25-19.53.21:056][588]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.02.25-19.53.23:380][805]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.02.25-19.53.28:347][295]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.02.25-19.53.29:647][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-19.53.29:745][454]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-19.53.29:759][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-19.53.29:759][454]PIE: New page: PIE session: NewMap (Feb 25, 2019, 9:53:29 PM)
+[2019.02.25-19.53.29:759][454]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.25-19.53.29:761][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
+[2019.02.25-19.53.29:762][454]LogAIModule: Creating AISystem for world NewMap
+[2019.02.25-19.53.29:762][454]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2019.02.25-19.53.29:762][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003139s)
+[2019.02.25-19.53.29:781][454]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-19.53.29:792][454]LogInit: FAudioDevice initialized.
+[2019.02.25-19.53.29:827][454]LogLoad: Game class is 'GameModeBase'
+[2019.02.25-19.53.29:829][454]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.25-20.53.29
+[2019.02.25-19.53.29:829][454]LogWorld: Bringing up level for play took: 0.000943
+[2019.02.25-19.53.29:830][454]LogTemp: Position report reporting for duty!
+[2019.02.25-19.53.29:831][454]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-19.53.29:831][454]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-19.53.29:831][454]LogTemp: Position report reporting for duty!
+[2019.02.25-19.53.29:831][454]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-19.53.29:831][454]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-19.53.29:831][454]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.07
+[2019.02.25-19.54.15:307][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.25-19.54.22:222][276]LogSavePackage: Save=29.81ms
+[2019.02.25-19.54.22:222][276]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto213BC87664DB89FA394460A93DB8A8863.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2019.02.25-19.54.22:226][276]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2019.02.25-19.54.22:229][276]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.082
+[2019.02.25-19.54.22:229][276]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.082
+[2019.02.25-19.54.41:800][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.55.05:392][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.55.07:721][288]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.55.12:319][832]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.55.33:106][965]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-19.56.05:528][524]LogSlate: Window 'Modes' being destroyed
+[2019.02.25-20.47.58:336][130]Candidate modules for hot reload:
+[2019.02.25-20.47.58:336][130]  EscapeRoom
+[2019.02.25-20.47.58:336][130]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,3484 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.25-20.47.58:338][130]Warning: Starting HotReload took  0.0s.
+[2019.02.25-20.48.05:668][991]CompilerResultsLog: New page: Compilation - Feb 25, 2019, 10:48:05 PM
+[2019.02.25-20.48.05:668][991]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.25-20.48.05:668][991]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.25-20.48.05:668][991]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.02.25-20.48.05:669][991]CompilerResultsLog: PositionReport.cpp
+[2019.02.25-20.48.05:669][991]CompilerResultsLog: [2/3] Link UE4Editor-EscapeRoom-3484.dll
+[2019.02.25-20.48.05:669][991]CompilerResultsLog: [3/3] Link UE4Editor-EscapeRoom-3484.lib
+[2019.02.25-20.48.05:670][991]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3484.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3484.exp
+[2019.02.25-20.48.05:672][991]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3484.suppressed.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-3484.suppressed.exp
+[2019.02.25-20.48.05:674][991]CompilerResultsLog: ERROR: UnrealBuildTool Exception: In C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Source\EscapeRoom\PositionReport.cpp: #include "GameFramework\Actor.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2019.02.25-20.48.05:674][991]LogMainFrame: MainFrame: Module compiling took 7.343 seconds
+[2019.02.25-20.48.05:674][991]Warning: HotReload failed, recompile failed
+[2019.02.25-20.48.22:962][ 34]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-20.48.22:967][ 34]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-20.55.08:726][713]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-20.55.08:739][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-20.55.08:739][713]PIE: New page: PIE session: NewMap (Feb 25, 2019, 10:55:08 PM)
+[2019.02.25-20.55.08:739][713]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.25-20.55.08:742][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002370s)
+[2019.02.25-20.55.08:743][713]LogAIModule: Creating AISystem for world NewMap
+[2019.02.25-20.55.08:743][713]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2019.02.25-20.55.08:743][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003951s)
+[2019.02.25-20.55.08:768][713]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-20.55.08:782][713]LogInit: FAudioDevice initialized.
+[2019.02.25-20.55.08:815][713]LogLoad: Game class is 'GameModeBase'
+[2019.02.25-20.55.08:817][713]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.25-21.55.08
+[2019.02.25-20.55.08:817][713]LogWorld: Bringing up level for play took: 0.000876
+[2019.02.25-20.55.08:818][713]LogTemp: Position report reporting for duty!
+[2019.02.25-20.55.08:818][713]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-20.55.08:818][713]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-20.55.08:818][713]LogTemp: Position report reporting for duty!
+[2019.02.25-20.55.08:818][713]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-20.55.08:819][713]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-20.55.08:819][713]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.058
+[2019.02.25-20.55.21:206][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-20.55.21:276][183]Candidate modules for hot reload:
+[2019.02.25-20.55.21:277][183]  EscapeRoom
+[2019.02.25-20.55.21:277][183]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,6873 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.25-20.55.21:279][183]Warning: Starting HotReload took  0.0s.
+[2019.02.25-20.55.41:887][223]CompilerResultsLog: New page: Compilation - Feb 25, 2019, 10:55:41 PM
+[2019.02.25-20.55.41:887][223]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.25-20.55.41:887][223]CompilerResultsLog: Creating makefile for hot reloading EscapeRoom (modules to compile have changed)
+[2019.02.25-20.55.41:887][223]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.25-20.55.41:888][223]CompilerResultsLog: Target is up to date
+[2019.02.25-20.55.41:888][223]CompilerResultsLog: Total build time: 20,25 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.02.25-20.55.41:888][223]LogMainFrame: MainFrame: Module compiling took 20.615 seconds
+[2019.02.25-20.55.41:917][223]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2455 classes and 562 folders.
+[2019.02.25-20.55.41:917][223]Display: HotReload took 20.7s.
+[2019.02.25-20.56.37:476][641]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-20.56.37:489][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-20.56.37:489][641]PIE: New page: PIE session: NewMap (Feb 25, 2019, 10:56:37 PM)
+[2019.02.25-20.56.37:489][641]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.25-20.56.37:490][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
+[2019.02.25-20.56.37:491][641]LogAIModule: Creating AISystem for world NewMap
+[2019.02.25-20.56.37:491][641]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2019.02.25-20.56.37:492][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003331s)
+[2019.02.25-20.56.37:510][641]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-20.56.37:522][641]LogInit: FAudioDevice initialized.
+[2019.02.25-20.56.37:559][641]LogLoad: Game class is 'GameModeBase'
+[2019.02.25-20.56.37:561][641]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.25-21.56.37
+[2019.02.25-20.56.37:561][641]LogWorld: Bringing up level for play took: 0.000841
+[2019.02.25-20.56.37:562][641]LogTemp: Position report reporting for duty!
+[2019.02.25-20.56.37:562][641]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-20.56.37:563][641]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-20.56.37:563][641]LogTemp: Position report reporting for duty!
+[2019.02.25-20.56.37:563][641]LogTemp: Warning: Position report reporting for duty!
+[2019.02.25-20.56.37:563][641]LogTemp: Error: Position report reporting for duty!
+[2019.02.25-20.56.37:563][641]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.197
+[2019.02.25-20.57.10:517][692]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-20.57.57:668][983]LogHotReload: New module detected: UE4Editor-EscapeRoom-3509.dll
+[2019.02.25-20.57.58:691][987]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.25-20.58.03:344][987]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 2 classes and 2 folders.
+[2019.02.25-20.58.03:345][987]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.25-20.58.03:397][987]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2455 classes and 562 folders.
+[2019.02.25-20.58.03:402][987]Display: HotReload took  4.7s.
+[2019.02.25-20.58.11:724][761]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-20.58.11:737][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-20.58.11:737][761]PIE: New page: PIE session: NewMap (Feb 25, 2019, 10:58:11 PM)
+[2019.02.25-20.58.11:737][761]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.25-20.58.11:738][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002128s)
+[2019.02.25-20.58.11:740][761]LogAIModule: Creating AISystem for world NewMap
+[2019.02.25-20.58.11:740][761]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2019.02.25-20.58.11:740][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003954s)
+[2019.02.25-20.58.11:761][761]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-20.58.11:773][761]LogInit: FAudioDevice initialized.
+[2019.02.25-20.58.11:808][761]LogLoad: Game class is 'GameModeBase'
+[2019.02.25-20.58.11:810][761]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.25-21.58.11
+[2019.02.25-20.58.11:810][761]LogWorld: Bringing up level for play took: 0.001046
+[2019.02.25-20.58.11:811][761]LogTemp: Position report on SM_Chair_2
+[2019.02.25-20.58.11:812][761]LogTemp: Warning: Position report on $s
+[2019.02.25-20.58.11:812][761]LogTemp: Error: Position report on SM_Chair_2
+[2019.02.25-20.58.11:812][761]LogTemp: Position report on SM_Couch_8
+[2019.02.25-20.58.11:812][761]LogTemp: Warning: Position report on $s
+[2019.02.25-20.58.11:812][761]LogTemp: Error: Position report on SM_Couch_8
+[2019.02.25-20.58.11:812][761]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.052
+[2019.02.25-21.06.08:098][334]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-21.06.10:916][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.02.25-21.06.33:829][340]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-21.07.06:560][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2019.02.25-21.07.10:674][401]LogSlate: FSceneViewport::OnFocusLost() reason 2
