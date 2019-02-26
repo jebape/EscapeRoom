@@ -559,7 +559,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\EscapeRoom-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\EscapeRoom\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\EscapeRoom\PositionReport.cpp" />
+    <ClInclude Include="..\..\Source\EscapeRoom\OpenDoor.h" />
     <ClInclude Include="..\..\Source\EscapeRoom\PositionReport.h" />
     <None Include="..\..\EscapeRoom.uproject" />
     <None Include="..\..\Source\EscapeRoom.Target.cs" />
