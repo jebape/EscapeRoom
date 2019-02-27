@@ -526,3 +526,537 @@ LogInit: Object subsystem initialized
 [2019.02.27-18.50.37:736][ 82]LogTemp: Error: SM_TableRound_5 is at X=-130.000 Y=-120.000 Z=20.000
 [2019.02.27-18.50.37:736][ 82]LogTemp: Error: SM_Couch_8 is at X=-220.000 Y=220.000 Z=20.000
 [2019.02.27-18.50.37:736][ 82]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.071
+[2019.02.27-18.54.48:003][809]LogHotReload: New module detected: UE4Editor-EscapeRoom-8846.dll
+[2019.02.27-18.54.49:028][813]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.27-18.54.49:032][813]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.27-18.54.51:000][813]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2019.02.27-18.54.51:002][813]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.27-18.54.51:043][813]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2456 classes and 562 folders.
+[2019.02.27-18.54.51:047][813]Display: HotReload took  2.0s.
+[2019.02.27-18.54.53:321][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-18.54.53:404][970]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-18.54.53:418][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-18.54.53:418][970]PIE: New page: PIE session: NewMap (Feb 27, 2019, 8:54:53 PM)
+[2019.02.27-18.54.53:418][970]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.27-18.54.53:420][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001917s)
+[2019.02.27-18.54.53:421][970]LogAIModule: Creating AISystem for world NewMap
+[2019.02.27-18.54.53:421][970]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2019.02.27-18.54.53:422][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003407s)
+[2019.02.27-18.54.53:443][970]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-18.54.53:466][970]LogInit: FAudioDevice initialized.
+[2019.02.27-18.54.53:501][970]LogLoad: Game class is 'GameModeBase'
+[2019.02.27-18.54.53:502][970]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.27-19.54.53
+[2019.02.27-18.54.53:503][970]LogWorld: Bringing up level for play took: 0.000901
+[2019.02.27-18.54.53:504][970]LogTemp: Error: SM_Chair_2 is at X=-270.000 Y=-130.000 Z=20.000
+[2019.02.27-18.54.53:504][970]LogTemp: Error: SM_TableRound_5 is at X=-130.000 Y=-120.000 Z=20.000
+[2019.02.27-18.54.53:504][970]LogTemp: Error: SM_Couch_8 is at X=-220.000 Y=220.000 Z=20.000
+[2019.02.27-18.54.53:505][970]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.84
+[2019.02.27-18.54.59:832][698]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-18.55.06:272][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-18.55.06:399][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-18.55.06:448][471]LogSavePackage: Save=29.72ms
+[2019.02.27-18.55.06:448][471]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMapA19CEE74457CB46DF0AE0D81CE51DCDD.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-18.55.06:452][471]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-18.55.06:474][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.02.27-18.55.06:558][471]LogSavePackage: Save=72.13ms
+[2019.02.27-18.55.06:558][471]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_BuiltData96251E5845D9247CC5A9B092B5AA7AE6.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2019.02.27-18.55.06:563][471]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2019.02.27-19.01.38:964][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.27-19.01.39:568][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.27-19.01.40:208][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2019.02.27-19.01.40:653][103]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_TableRound)
+[2019.02.27-19.01.40:803][103]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.01.46:793][773]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.02.27-19.01.52:816][189]LogRenderer: Reallocating scene render targets to support 1192x776 Format 10 NumSamples 1 (Frame:418).
+[2019.02.27-19.01.55:529][445]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.02.27-19.01.56:432][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c7b9420, Size=88, Default__Landscape_Painting_Mode_C Function /Engine/Tutorial/Landscape/Landscape_Painting_Mode.Landscape_Painting_Mode_C:ExecuteUbergraph_Landscape_Painting_Mode
+[2019.02.27-19.01.56:475][445]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001921c7b9420, Size=88
+[2019.02.27-19.01.56:476][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c7b9000, Size=88, Default__Landscape_Painting_Mode_C Function /Engine/Transient.REINST_Landscape_Painting_Mode_C_7:ExecuteUbergraph_Landscape_Painting_Mode
+[2019.02.27-19.01.56:537][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c14bb50, Size=80, Default__Landscape_Painting_Mode_C Function /Engine/Tutorial/Landscape/Landscape_Painting_Mode.Landscape_Painting_Mode_C:ExecuteUbergraph_Landscape_Painting_Mode
+[2019.02.27-19.01.56:575][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c7b9240, Size=88, Default__Landscape_Sculpt_Mode_C Function /Engine/Tutorial/Landscape/Landscape_Sculpt_Mode.Landscape_Sculpt_Mode_C:ExecuteUbergraph_Landscape_Sculpt_Mode
+[2019.02.27-19.01.56:579][445]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001921c7b9240, Size=88
+[2019.02.27-19.01.56:579][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c7b8dc0, Size=88, Default__Landscape_Sculpt_Mode_C Function /Engine/Transient.REINST_Landscape_Sculpt_Mode_C_9:ExecuteUbergraph_Landscape_Sculpt_Mode
+[2019.02.27-19.01.56:582][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c0a7510, Size=80, Default__Landscape_Sculpt_Mode_C Function /Engine/Tutorial/Landscape/Landscape_Sculpt_Mode.Landscape_Sculpt_Mode_C:ExecuteUbergraph_Landscape_Sculpt_Mode
+[2019.02.27-19.01.56:654][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c102980, Size=64, Default__CreatingSigningCertAndProvisionTutorial_C Function /Engine/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.CreatingSigningCertAndProvisionTutorial_C:ExecuteUbergraph_CreatingSigningCertAndProvisionTutorial
+[2019.02.27-19.01.56:686][445]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001921c102980, Size=64
+[2019.02.27-19.01.56:687][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c101440, Size=64, Default__CreatingSigningCertAndProvisionTutorial_C Function /Engine/Transient.REINST_CreatingSigningCertAndProvisionTutorial_C_11:ExecuteUbergraph_CreatingSigningCertAndProvisionTutorial
+[2019.02.27-19.01.56:702][445]LogUObjectGlobals: Created PersistentFrame Addr=0x000001921c033100, Size=64, Default__CreatingSigningCertAndProvisionTutorial_C Function /Engine/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.CreatingSigningCertAndProvisionTutorial_C:ExecuteUbergraph_CreatingSigningCertAndProvisionTutorial
+[2019.02.27-19.01.56:949][445]LogSlate: Window 'Tutorials' being destroyed
+[2019.02.27-19.01.57:051][446]LogRenderer: Reallocating scene render targets to support 1192x824 Format 10 NumSamples 1 (Frame:1).
+[2019.02.27-19.02.07:575][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.05.07:761][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.05.10:910][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.05.33:049][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.05.36:397][961]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.05.43:237][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.05.56:707][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.06.00:923][153]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.06.05:337][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.06.21:016][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.06.25:444][426]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.06.29:034][723]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.06.30:627][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.06.37:216][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.06.55:822][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.07.09:542][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.07.24:493][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.07.32:994][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.07.33:078][129]LogSlate: Window 'SM_TableRound' being destroyed
+[2019.02.27-19.07.33:084][129]LogSlate: Window 'SM_TableRound' being destroyed
+[2019.02.27-19.09.21:103][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.15.49:976][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.27-19.18.45:936][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.19.32:389][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.19.32:803][660]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2019.02.27-19.19.34:895][873]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2019.02.27-19.20.12:243][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.20.38:017][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.20.38:360][771]LogActorFactory: Actor Factory created Floor_400x400
+[2019.02.27-19.20.41:606][106]LogActorFactory: Actor Factory created Floor_400x400
+[2019.02.27-19.21.01:830][256]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.02.27-19.21.01:904][256]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.21.03:440][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2019.02.27-19.21.05:503][674]Cmd: DELETE
+[2019.02.27-19.21.05:503][674]Cmd: ACTOR DELETE
+[2019.02.27-19.21.05:568][674]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.27-19.21.05:606][674]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001921c101440, Size=64
+[2019.02.27-19.21.05:606][674]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001921c7b8dc0, Size=88
+[2019.02.27-19.21.05:606][674]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001921c7b9000, Size=88
+[2019.02.27-19.21.05:610][674]LogEditorActor: Deleted 1 Actors (0.095 secs)
+[2019.02.27-19.21.06:752][806]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.02.27-19.21.06:801][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.21.08:579][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.27-19.21.33:972][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2019.02.27-19.21.42:252][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.21.42:326][589]Candidate modules for hot reload:
+[2019.02.27-19.21.42:326][589]  EscapeRoom
+[2019.02.27-19.21.42:327][589]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,9453 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.27-19.21.42:329][589]Warning: Starting HotReload took  0.0s.
+[2019.02.27-19.21.54:728][ 33]CompilerResultsLog: New page: Compilation - Feb 27, 2019, 9:21:54 PM
+[2019.02.27-19.21.54:728][ 33]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.27-19.21.54:729][ 33]CompilerResultsLog: Creating makefile for hot reloading EscapeRoom (modules to compile have changed)
+[2019.02.27-19.21.54:729][ 33]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.27-19.21.54:729][ 33]CompilerResultsLog: Target is up to date
+[2019.02.27-19.21.54:729][ 33]CompilerResultsLog: Total build time: 12,12 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.02.27-19.21.54:729][ 33]LogMainFrame: MainFrame: Module compiling took 12.407 seconds
+[2019.02.27-19.21.54:758][ 33]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2456 classes and 562 folders.
+[2019.02.27-19.21.54:758][ 33]Display: HotReload took 12.4s.
+[2019.02.27-19.21.57:466][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.21.57:515][322]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-19.21.57:528][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-19.21.57:528][322]PIE: New page: PIE session: NewMap (Feb 27, 2019, 9:21:57 PM)
+[2019.02.27-19.21.57:528][322]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.27-19.21.57:531][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002208s)
+[2019.02.27-19.21.57:532][322]LogAIModule: Creating AISystem for world NewMap
+[2019.02.27-19.21.57:532][322]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2019.02.27-19.21.57:532][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003822s)
+[2019.02.27-19.21.57:551][322]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-19.21.57:562][322]LogInit: FAudioDevice initialized.
+[2019.02.27-19.21.57:600][322]LogLoad: Game class is 'GameModeBase'
+[2019.02.27-19.21.57:605][322]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.27-20.21.57
+[2019.02.27-19.21.57:606][322]LogWorld: Bringing up level for play took: 0.002770
+[2019.02.27-19.21.57:609][322]LogTemp: Error: SM_Chair_2 is at X=-270.000 Y=-130.000 Z=20.000
+[2019.02.27-19.21.57:609][322]LogTemp: Error: SM_TableRound_5 is at X=-130.000 Y=-120.000 Z=20.000
+[2019.02.27-19.21.57:610][322]LogTemp: Error: SM_Couch_8 is at X=-220.000 Y=220.000 Z=20.000
+[2019.02.27-19.21.57:611][322]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.946
+[2019.02.27-19.22.40:119][559]LogSavePackage: Save=33.92ms
+[2019.02.27-19.22.40:120][559]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto18BDDFAAA4037C66AAC9A5492676ADCD4.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2019.02.27-19.22.40:123][559]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2019.02.27-19.22.40:127][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.082
+[2019.02.27-19.22.40:127][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.082
+[2019.02.27-19.23.14:937][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.02.27-19.24.08:513][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.24.28:757][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.24.29:055][607]LogActorFactory: Actor Factory created Wall_400x300
+[2019.02.27-19.24.35:027][193]LogActorFactory: Actor Factory created Wall_400x300
+[2019.02.27-19.25.09:868][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.25.11:703][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.25.21:148][128]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.25.22:650][279]LogEditorViewport: Clicking Background
+[2019.02.27-19.25.25:592][610]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.25.25:632][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.25.32:946][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.25.50:019][450]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.25.51:976][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.26.01:129][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.26.05:871][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.26.08:387][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.26.11:796][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.26.17:868][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.26.20:581][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.26.22:956][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.26.25:926][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.26.45:882][835]LogEditorViewport: Clicking Background
+[2019.02.27-19.26.53:255][662]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.26.53:328][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.27.01:839][671]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.27.15:540][186]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.27.24:364][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.27.40:639][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.28.08:122][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.28.16:818][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.28.24:448][843]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.28.34:244][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.28.41:836][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.28.50:251][686]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.28.52:934][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.30.11:282][184]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.30.18:877][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.31.06:077][183]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.31.11:006][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.31.13:784][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.31.31:753][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.32.40:944][325]LogSavePackage: Save=45.47ms
+[2019.02.27-19.32.40:944][325]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto2F1C891D148FC8C9E17DA05831193850C.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2019.02.27-19.32.40:950][325]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2019.02.27-19.32.40:953][325]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.109
+[2019.02.27-19.32.40:954][325]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.109
+[2019.02.27-19.33.23:277][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2019.02.27-19.33.27:161][443]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x301)
+[2019.02.27-19.33.27:207][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.33.30:407][797]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.33.30:450][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.33.55:808][770]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.34.43:957][989]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.34.47:609][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.27-19.34.52:189][917]Cmd: TRANSACTION UNDO
+[2019.02.27-19.34.52:189][917]LogEditorTransaction: Undo Move Actors
+[2019.02.27-19.35.14:462][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.35.19:674][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.35.31:432][448]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.35.31:518][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.27-19.35.38:838][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2019.02.27-19.35.44:722][926]Cmd: TRANSACTION UNDO
+[2019.02.27-19.35.44:723][926]LogEditorTransaction: Undo Move Actors
+[2019.02.27-19.35.45:340][982]Cmd: TRANSACTION UNDO
+[2019.02.27-19.35.45:340][982]LogEditorTransaction: Undo Move Actors
+[2019.02.27-19.35.54:198][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.36.11:539][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.36.20:784][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.36.31:290][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2019.02.27-19.36.39:963][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.36.47:941][936]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.36.48:008][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2019.02.27-19.36.52:252][432]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.36.55:607][801]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.37.00:316][352]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.37.37:333][964]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.37.40:819][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-19.37.40:877][308]LogSavePackage: Save=36.36ms
+[2019.02.27-19.37.40:877][308]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap9B9C708241BAA1ACB101728CF958C4AB.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-19.37.40:879][308]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap', retrying in .5s...
+[2019.02.27-19.37.41:383][308]LogFileManager: Warning: DeleteFile recovered during retry!
+[2019.02.27-19.37.41:424][308]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-19.37.41:470][308]LogFileHelpers: Saving map 'NewMap' took 0.800
+[2019.02.27-19.38.08:354][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.38.08:700][291]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2019.02.27-19.38.15:287][ 57]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2019.02.27-19.38.20:203][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.38.33:727][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.38.39:129][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.39.15:441][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.39.17:736][856]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.39.43:044][508]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.39.54:803][584]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.40.05:269][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.40.08:208][824]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.40.49:849][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x304)
+[2019.02.27-19.41.01:577][345]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.41.04:131][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.41.04:259][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-19.41.04:325][553]LogSavePackage: Save=47.83ms
+[2019.02.27-19.41.04:325][553]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap2027A73348CB601E0C455FA67C0A9908.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-19.41.04:333][553]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-19.41.04:355][553]LogFileHelpers: Saving map 'NewMap' took 0.220
+[2019.02.27-19.41.31:980][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.41.32:057][584]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.41.32:105][584]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.41.33:131][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2019.02.27-19.41.33:943][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.41.35:571][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2019.02.27-19.41.37:926][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.41.48:816][478]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.43.17:348][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x306)
+[2019.02.27-19.43.38:055][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2019.02.27-19.45.21:059][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.45.32:771][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.45.40:810][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.45.52:214][991]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.45.57:295][589]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.46.17:138][628]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.47.28:655][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.47.36:910][754]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.47.49:896][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x312)
+[2019.02.27-19.48.01:987][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.27-19.48.03:331][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2019.02.27-19.48.11:701][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.48.28:062][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2019.02.27-19.48.37:155][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.27-19.48.51:768][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.48.53:109][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.48.56:105][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.48.58:550][590]LogEditorViewport: Clicking Background
+[2019.02.27-19.48.59:934][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.49.04:197][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.49.13:735][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.49.33:122][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.27-19.49.44:939][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.49.46:505][955]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.49.47:290][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.02.27-19.49.49:475][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.49.51:679][531]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.49.51:807][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-19.49.51:876][531]LogSavePackage: Save=47.57ms
+[2019.02.27-19.49.51:877][531]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap3FC5EB294956F3CA4F3CCFBF3867E1A9.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-19.49.51:885][531]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-19.49.51:905][531]LogFileHelpers: Saving map 'NewMap' took 0.221
+[2019.02.27-19.49.54:877][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.49.54:955][890]Candidate modules for hot reload:
+[2019.02.27-19.49.54:955][890]  EscapeRoom
+[2019.02.27-19.49.54:955][890]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,1489 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.27-19.49.54:958][890]Warning: Starting HotReload took  0.0s.
+[2019.02.27-19.49.57:189][119]CompilerResultsLog: New page: Compilation - Feb 27, 2019, 9:49:57 PM
+[2019.02.27-19.49.57:190][119]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.27-19.49.57:190][119]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.27-19.49.57:190][119]CompilerResultsLog: Target is up to date
+[2019.02.27-19.49.57:190][119]CompilerResultsLog: Total build time: 2,01 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.02.27-19.49.57:190][119]LogMainFrame: MainFrame: Module compiling took 2.239 seconds
+[2019.02.27-19.49.57:217][119]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2456 classes and 562 folders.
+[2019.02.27-19.49.57:217][119]Display: HotReload took  2.3s.
+[2019.02.27-19.50.01:210][592]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-19.50.01:224][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-19.50.01:224][592]PIE: New page: PIE session: NewMap (Feb 27, 2019, 9:50:01 PM)
+[2019.02.27-19.50.01:224][592]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.27-19.50.01:227][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002856s)
+[2019.02.27-19.50.01:229][592]LogAIModule: Creating AISystem for world NewMap
+[2019.02.27-19.50.01:229][592]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2019.02.27-19.50.01:229][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004937s)
+[2019.02.27-19.50.01:250][592]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-19.50.01:263][592]LogInit: FAudioDevice initialized.
+[2019.02.27-19.50.01:293][592]LogLoad: Game class is 'GameModeBase'
+[2019.02.27-19.50.01:295][592]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.27-20.50.01
+[2019.02.27-19.50.01:295][592]LogWorld: Bringing up level for play took: 0.001335
+[2019.02.27-19.50.01:296][592]LogTemp: Error: SM_Chair_2 is at X=-270.000 Y=-130.000 Z=20.000
+[2019.02.27-19.50.01:297][592]LogTemp: Error: SM_TableRound_5 is at X=-130.000 Y=-120.000 Z=20.000
+[2019.02.27-19.50.01:297][592]LogTemp: Error: SM_Couch_8 is at X=-220.000 Y=220.000 Z=20.000
+[2019.02.27-19.50.01:297][592]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.632
+[2019.02.27-19.50.25:276][422]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.50.27:414][643]MapCheck: New page: Map Check
+[2019.02.27-19.50.27:443][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.50.27:453][643]LightingResults: New page: Lighting Build - Feb 27, 2019, 9:50:27 PM
+[2019.02.27-19.50.27:705][643]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.27-19.50.27:923][643]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.27-19.50.27:970][643]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.27-19.50.30:310][643]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.02.27-19.50.30:318][643]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2019.02.27-19.50.35:344][643]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.27-19.50.35:345][643]LogSwarmInterface: [TryOpenConnection] Local Process ID is 29640
+[2019.02.27-19.50.40:127][643]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.02.27-19.50.40:135][643]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.27-19.50.40:135][643]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.27-19.50.40:136][643]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.27-19.50.40:136][643]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.27-19.50.40:136][643]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.27-19.50.40:553][643]LogEditorBuildUtils: Build time 0:13
+[2019.02.27-19.50.40:596][643]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.02.27-19.50.40:749][643]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-19.50.40:750][643]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.02.27-19.50.40:791][644]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.02.27-19.50.40:795][644]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.02.27-19.50.40:833][645]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2019.02.27-19.50.40:837][645]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2019.02.27-19.50.40:842][645]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2019.02.27-19.50.40:846][645]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2019.02.27-19.50.40:859][646]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2019.02.27-19.50.40:863][646]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2019.02.27-19.50.40:868][646]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2019.02.27-19.50.40:872][646]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2019.02.27-19.50.40:885][647]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.02.27-19.50.40:890][647]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.02.27-19.50.44:086][649]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.02.27-19.50.44:086][649]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.27-19.50.44:086][649]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.27-19.50.54:418][345]Job is a success!
+[2019.02.27-19.50.54:438][346]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.50.54:672][346]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.050s
+[2019.02.27-19.50.54:672][346]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.02.27-19.50.54:672][346]LogVolumetricLightmapImport:      BrickData 90x5x5 = 0.1Mb
+[2019.02.27-19.50.54:672][346]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.27-19.50.54:673][346]LogVolumetricLightmapImport:          0: 5.6% covering 100.0% of volume
+[2019.02.27-19.50.54:673][346]LogVolumetricLightmapImport:          1: 5.6% covering 1.6% of volume
+[2019.02.27-19.50.54:673][346]LogVolumetricLightmapImport:          2: 88.9% covering 0.4% of volume
+[2019.02.27-19.50.55:133][346]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.02.27-19.50.55:133][346]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.02.27-19.50.55:134][346]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2019.02.27-19.50.55:134][346]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2019.02.27-19.50.55:134][346]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2019.02.27-19.50.55:135][346]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2019.02.27-19.50.55:333][346]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2019.02.27-19.50.55:385][346]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2019.02.27-19.50.55:434][346]Lightmass on KROMGER: 4.52 sec total, 477 ms importing, 98 ms setup, 763 ms photons, 3.16 sec processing, 0 ms extra exporting [28/28 mappings]. Threads: 21.9 sec total, 10.9 sec processing.
+[2019.02.27-19.50.55:458][346]LogStaticLightingSystem: Illumination: 27.9 sec (371 ms encoding lightmaps, 244 ms encoding shadowmaps)
+[2019.02.27-19.50.55:459][346]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (2.5 MB streaming, 0.0 MB non-streaming), 6 textures
+[2019.02.27-19.50.55:459][346]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.02.27-19.50.56:145][346]DumpUnbuiltLightIteractions
+[2019.02.27-19.50.56:145][346]Lights with unbuilt interactions: 0
+[2019.02.27-19.50.56:146][346]
+[2019.02.27-19.50.56:146][346]Primitives with unbuilt interactions: 0
+[2019.02.27-19.50.56:162][346]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.50.56:273][347]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.27-19.50.56:273][347]MapCheck: New page: NewMap - Feb 27, 2019, 9:50:56 PM
+[2019.02.27-19.50.56:524][347]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 250.517ms to complete.
+[2019.02.27-19.51.31:428][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.52.07:301][695]LogActorFactory: Actor Factory created SM_WindowFrame
+[2019.02.27-19.52.11:447][180]LogActorFactory: Actor Factory created SM_WindowFrame
+[2019.02.27-19.52.26:382][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.52.29:246][161]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.52.41:753][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.52.46:881][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.52.54:527][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.52.59:686][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.02.27-19.53.06:559][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.53.06:638][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-19.53.06:707][166]LogSavePackage: Save=48.01ms
+[2019.02.27-19.53.06:707][166]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMapB3810F454DB89E707E8EC1B181625AFC.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-19.53.06:715][166]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-19.53.06:737][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.02.27-19.53.06:858][166]LogSavePackage: Save=108.39ms
+[2019.02.27-19.53.06:858][166]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_BuiltData9479F3D0424B8269252B3198D95EDD13.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2019.02.27-19.53.06:865][166]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2019.02.27-19.53.15:992][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.02.27-19.53.23:225][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.53.24:998][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.53.37:903][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.53.39:735][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.27-19.53.49:253][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.53.53:195][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2019.02.27-19.54.05:435][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.27-19.54.17:934][663]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.23:515][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.27-19.54.28:237][832]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.32:991][331]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.33:073][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2019.02.27-19.54.34:343][482]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.35:378][588]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.35:438][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2019.02.27-19.54.36:070][662]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.42:164][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.45:511][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-19.54.46:216][690]Cmd: SELECT NONE
+[2019.02.27-19.54.47:027][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.48:207][906]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-19.54.48:344][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-19.54.48:419][906]LogSavePackage: Save=53.41ms
+[2019.02.27-19.54.48:420][906]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMapD994C2534970F72FA7023CA8C78BBD18.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-19.54.48:428][906]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-19.54.48:454][906]LogFileHelpers: Saving map 'NewMap' took 0.241
+[2019.02.27-20.21.23:383][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2019.02.27-20.21.32:336][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.21.35:133][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.21.42:491][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.05:127][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.10:503][693]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.12:484][887]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.14:721][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2019.02.27-20.22.17:762][496]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.27:381][452]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.32:250][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.56:090][389]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.22.57:758][555]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.00:850][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.04:202][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.06:362][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x301)
+[2019.02.27-20.23.12:183][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
+[2019.02.27-20.23.14:464][254]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.21:946][819]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.27:183][345]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.38:254][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.39:598][616]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.23.39:758][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-20.23.39:837][616]LogSavePackage: Save=55.03ms
+[2019.02.27-20.23.39:837][616]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap8D8D823246F26A149CB095BFE8457837.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-20.23.39:846][616]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-20.23.39:868][616]LogFileHelpers: Saving map 'NewMap' took 0.266
+[2019.02.27-20.23.44:376][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.23.52:307][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.23.52:636][827]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.23.56:387][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.24.07:164][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.24.07:437][441]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.24.13:752][132]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.24.24:387][384]Cmd: TRANSACTION UNDO
+[2019.02.27-20.24.24:387][384]LogEditorTransaction: Undo Create Actors
+[2019.02.27-20.24.27:239][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.24.27:373][649]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.24.29:801][925]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.24.37:741][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.24.37:878][819]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.24.40:559][117]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.24.52:464][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.24.52:611][499]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.24.58:003][ 62]LogActorFactory: Actor Factory created SM_GlassWindow
+[2019.02.27-20.25.20:386][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow2)
+[2019.02.27-20.25.28:437][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2019.02.27-20.25.29:467][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2019.02.27-20.25.31:003][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2019.02.27-20.25.37:226][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow3)
+[2019.02.27-20.25.57:952][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.26.02:153][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2019.02.27-20.26.08:047][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow5)
+[2019.02.27-20.26.18:167][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow4)
+[2019.02.27-20.26.27:170][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow3)
+[2019.02.27-20.26.32:346][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow2)
+[2019.02.27-20.26.34:128][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2019.02.27-20.26.35:511][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow2)
+[2019.02.27-20.26.42:142][617]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.26.43:330][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-20.26.43:495][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.27-20.26.43:579][739]LogSavePackage: Save=61.70ms
+[2019.02.27-20.26.43:579][739]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap021B3B8D4452087FF49E66A094637E86.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.02.27-20.26.43:588][739]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.02.27-20.26.43:610][739]LogFileHelpers: Saving map 'NewMap' took 0.275
+[2019.02.27-20.26.45:716][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-20.26.45:801][973]Candidate modules for hot reload:
+[2019.02.27-20.26.45:801][973]  EscapeRoom
+[2019.02.27-20.26.45:802][973]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,3086 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.27-20.26.45:847][973]Warning: Starting HotReload took  0.1s.
+[2019.02.27-20.26.48:522][247]CompilerResultsLog: New page: Compilation - Feb 27, 2019, 10:26:48 PM
+[2019.02.27-20.26.48:522][247]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.27-20.26.48:523][247]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.27-20.26.48:523][247]CompilerResultsLog: Target is up to date
+[2019.02.27-20.26.48:524][247]CompilerResultsLog: Total build time: 2,40 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.02.27-20.26.48:524][247]LogMainFrame: MainFrame: Module compiling took 2.726 seconds
+[2019.02.27-20.26.48:549][247]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2456 classes and 562 folders.
+[2019.02.27-20.26.48:549][247]Display: HotReload took  2.8s.
+[2019.02.27-20.26.51:974][646]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-20.26.51:987][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-20.26.51:988][646]PIE: New page: PIE session: NewMap (Feb 27, 2019, 10:26:51 PM)
+[2019.02.27-20.26.51:988][646]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.27-20.26.51:991][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003234s)
+[2019.02.27-20.26.51:992][646]LogAIModule: Creating AISystem for world NewMap
+[2019.02.27-20.26.51:993][646]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2019.02.27-20.26.51:993][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004988s)
+[2019.02.27-20.26.52:018][646]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-20.26.52:049][646]LogInit: FAudioDevice initialized.
+[2019.02.27-20.26.52:085][646]LogLoad: Game class is 'GameModeBase'
+[2019.02.27-20.26.52:088][646]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.27-21.26.52
+[2019.02.27-20.26.52:089][646]LogWorld: Bringing up level for play took: 0.002563
+[2019.02.27-20.26.52:090][646]LogTemp: Error: SM_Chair_2 is at X=-270.000 Y=-130.000 Z=20.000
+[2019.02.27-20.26.52:090][646]LogTemp: Error: SM_TableRound_5 is at X=-130.000 Y=-120.000 Z=20.000
+[2019.02.27-20.26.52:090][646]LogTemp: Error: SM_Couch_8 is at X=-220.000 Y=220.000 Z=20.000
+[2019.02.27-20.26.52:090][646]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.574

@@ -1,32 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for EscapeRoomEditor (no existing makefile)
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-1104.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-1104.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-2895.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-2895.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-2952.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-2952.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-3021.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-3021.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-3484.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-3484.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-3509.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-3509.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4445.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4445.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4605.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4605.pdb".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4934.dll".
-  Unable to delete old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4934.dll". Error: Acceso denegado a la ruta de acceso 'C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4934.dll'.
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4934.pdb".
-  Unable to delete old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4934.pdb". Error: Acceso denegado a la ruta de acceso 'C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-4934.pdb'.
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-5027.dll".
-  Deleting old hot reload file: "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Binaries\Win64\UE4Editor-EscapeRoom-5027.pdb".
+  Creating makefile for hot reloading EscapeRoomEditor (modules to compile have changed)
+  Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
   OpenDoor.cpp
-  [2/3] Link UE4Editor-EscapeRoom.dll
-  [3/3] Link UE4Editor-EscapeRoom.lib
-     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom.exp
-     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom.suppressed.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom.suppressed.exp
+  [2/3] Link UE4Editor-EscapeRoom-8846.dll
+  [3/3] Link UE4Editor-EscapeRoom-8846.lib
+     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8846.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8846.exp
+     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8846.suppressed.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-8846.suppressed.exp
   Deploying EscapeRoomEditor Win64 Development...
-  Total build time: 19,40 seconds (Local executor: 2,45 seconds)
+  Total build time: 24,81 seconds (Local executor: 1,84 seconds)
