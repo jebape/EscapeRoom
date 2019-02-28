@@ -1887,3 +1887,117 @@ LogInit: Object subsystem initialized
 [2019.02.28-19.50.56:546][ 23]LogTemp: Error: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
 [2019.02.28-19.50.56:546][ 23]LogTemp: Error: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
 [2019.02.28-19.50.56:547][ 23]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.606
+[2019.02.28-21.05.40:110][263]LogHotReload: New module detected: UE4Editor-EscapeRoom-5269.dll
+[2019.02.28-21.05.41:472][268]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.28-21.05.43:934][268]LogClass: Could not find existing class OpenDoor in package /Script/EscapeRoom for HotReload, assuming new class
+[2019.02.28-21.05.43:937][268]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.02.28-21.05.44:018][268]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0026 seconds. Added 3 classes and 2 folders.
+[2019.02.28-21.05.44:020][268]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.28-21.05.44:128][268]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2456 classes and 562 folders.
+[2019.02.28-21.05.44:133][268]Display: HotReload took  2.7s.
+[2019.02.28-21.34.06:610][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.28-21.35.43:369][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-21.35.46:554][747]LogSavePackage: Save=61.74ms
+[2019.02.28-21.35.46:554][747]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto186B7987F483CD32BEDCB5D9617C76F11.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2019.02.28-21.35.46:559][747]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2019.02.28-21.35.46:563][747]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.115
+[2019.02.28-21.35.46:563][747]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2019.02.28-21.35.48:837][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-21.36.27:173][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-21.36.27:297][545]Candidate modules for hot reload:
+[2019.02.28-21.36.27:297][545]  EscapeRoom
+[2019.02.28-21.36.27:297][545]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,2025 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.28-21.36.27:300][545]Warning: Starting HotReload took  0.0s.
+[2019.02.28-21.36.44:388][557]CompilerResultsLog: New page: Compilation - Feb 28, 2019, 11:36:44 PM
+[2019.02.28-21.36.44:389][557]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.28-21.36.44:389][557]CompilerResultsLog: Creating makefile for hot reloading EscapeRoom (modules to compile have changed)
+[2019.02.28-21.36.44:389][557]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.28-21.36.44:389][557]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.02.28-21.36.44:389][557]CompilerResultsLog: OpenDoor.cpp
+[2019.02.28-21.36.44:389][557]CompilerResultsLog: [2/3] Link UE4Editor-EscapeRoom-2025.dll
+[2019.02.28-21.36.44:389][557]CompilerResultsLog: [3/3] Link UE4Editor-EscapeRoom-2025.lib
+[2019.02.28-21.36.44:390][557]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2025.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2025.exp
+[2019.02.28-21.36.44:390][557]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2025.suppressed.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2025.suppressed.exp
+[2019.02.28-21.36.44:391][557]CompilerResultsLog: Total build time: 16,82 seconds (Local executor: 2,04 seconds)
+[2019.02.28-21.36.44:391][557]LogMainFrame: MainFrame: Module compiling took 17.098 seconds
+[2019.02.28-21.36.49:068][557]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0016 seconds. Added 3 classes and 2 folders.
+[2019.02.28-21.36.49:070][557]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.28-21.36.49:109][557]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2456 classes and 562 folders.
+[2019.02.28-21.36.49:109][557]Display: HotReload took 21.8s.
+[2019.02.28-21.36.51:345][824]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-21.36.51:361][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-21.36.51:362][824]PIE: New page: PIE session: NewMap (Feb 28, 2019, 11:36:51 PM)
+[2019.02.28-21.36.51:362][824]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.28-21.36.51:366][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004321s)
+[2019.02.28-21.36.51:368][824]LogAIModule: Creating AISystem for world NewMap
+[2019.02.28-21.36.51:368][824]LogPlayLevel: PIE: World Init took: (0.001636s)
+[2019.02.28-21.36.51:368][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006569s)
+[2019.02.28-21.36.51:388][824]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-21.36.51:400][824]LogInit: FAudioDevice initialized.
+[2019.02.28-21.36.51:435][824]LogLoad: Game class is 'GameModeBase'
+[2019.02.28-21.36.51:437][824]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.28-22.36.51
+[2019.02.28-21.36.51:438][824]LogWorld: Bringing up level for play took: 0.001742
+[2019.02.28-21.36.51:439][824]LogTemp: Error: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.02.28-21.36.51:439][824]LogTemp: Error: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.02.28-21.36.51:439][824]LogTemp: Error: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.02.28-21.36.51:440][824]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.287
+[2019.02.28-21.37.09:500][987]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-21.42.58:677][253]LogHotReload: New module detected: UE4Editor-EscapeRoom-9955.dll
+[2019.02.28-21.43.00:032][258]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.28-21.43.01:781][258]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2019.02.28-21.43.01:782][258]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.28-21.43.01:821][258]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2456 classes and 562 folders.
+[2019.02.28-21.43.01:825][258]Display: HotReload took  1.8s.
+[2019.02.28-21.45.45:274][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.28-21.45.48:515][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-21.46.06:960][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-21.46.07:049][204]Candidate modules for hot reload:
+[2019.02.28-21.46.07:049][204]  EscapeRoom
+[2019.02.28-21.46.07:050][204]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,2475 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.02.28-21.46.07:052][204]Warning: Starting HotReload took  0.0s.
+[2019.02.28-21.46.37:436][797]CompilerResultsLog: New page: Compilation - Feb 28, 2019, 11:46:37 PM
+[2019.02.28-21.46.37:437][797]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.28-21.46.37:437][797]CompilerResultsLog: Creating makefile for hot reloading EscapeRoom (modules to compile have changed)
+[2019.02.28-21.46.37:437][797]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.28-21.46.37:437][797]CompilerResultsLog: Parsing headers for EscapeRoomEditor
+[2019.02.28-21.46.37:437][797]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\EscapeRoom.uproject" "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.28-21.46.37:438][797]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 11,0956251 seconds
+[2019.02.28-21.46.37:438][797]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2019.02.28-21.46.37:438][797]CompilerResultsLog: OpenDoor.gen.cpp
+[2019.02.28-21.46.37:438][797]CompilerResultsLog: OpenDoor.cpp
+[2019.02.28-21.46.37:438][797]CompilerResultsLog: EscapeRoom.init.gen.cpp
+[2019.02.28-21.46.37:438][797]CompilerResultsLog: [4/5] Link UE4Editor-EscapeRoom-2475.dll
+[2019.02.28-21.46.37:438][797]CompilerResultsLog: [5/5] Link UE4Editor-EscapeRoom-2475.lib
+[2019.02.28-21.46.37:438][797]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2475.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2475.exp
+[2019.02.28-21.46.37:439][797]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2475.suppressed.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2475.suppressed.exp
+[2019.02.28-21.46.37:439][797]CompilerResultsLog: Total build time: 30,13 seconds (Local executor: 2,64 seconds)
+[2019.02.28-21.46.37:439][797]LogMainFrame: MainFrame: Module compiling took 30.395 seconds
+[2019.02.28-21.46.39:282][797]LogClass: Could not find existing class OpenDoor in package /Script/EscapeRoom for HotReload, assuming new class
+[2019.02.28-21.46.39:286][797]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.02.28-21.46.39:330][797]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2019.02.28-21.46.39:332][797]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.28-21.46.39:371][797]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2456 classes and 562 folders.
+[2019.02.28-21.46.39:371][797]Display: HotReload took 32.3s.
+[2019.02.28-21.48.51:496][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-21.49.24:471][ 87]LogSavePackage: Save=67.88ms
+[2019.02.28-21.49.24:471][ 87]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto2144E495B4142EE5A9F24E7B6D011D4A6.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2019.02.28-21.49.24:476][ 87]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2019.02.28-21.49.24:480][ 87]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.115
+[2019.02.28-21.49.24:481][ 87]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2019.02.28-21.49.53:950][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-21.50.28:424][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-21.50.32:495][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.28-21.50.37:369][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-21.59.25:492][ 62]LogSavePackage: Save=104.66ms
+[2019.02.28-21.59.25:492][ 62]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto3778AE3F3471651990DE4A09149A03BA8.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2019.02.28-21.59.25:497][ 62]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap
+[2019.02.28-21.59.25:503][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.354
+[2019.02.28-21.59.25:503][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.354
+[2019.02.28-22.03.10:539][738]LogHotReload: New module detected: UE4Editor-EscapeRoom-2209.dll
+[2019.02.28-22.03.11:570][742]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.28-22.03.13:334][742]LogClass: Could not find existing class OpenDoor in package /Script/EscapeRoom for HotReload, assuming new class
+[2019.02.28-22.03.13:337][742]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.02.28-22.03.13:382][742]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0016 seconds. Added 3 classes and 2 folders.
+[2019.02.28-22.03.13:384][742]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.28-22.03.13:426][742]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2456 classes and 562 folders.
+[2019.02.28-22.03.13:430][742]Display: HotReload took  1.9s.

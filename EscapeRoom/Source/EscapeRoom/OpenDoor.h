@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Engine/TriggerVolume.h"
+
 #include "OpenDoor.generated.h"
+
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -24,6 +27,14 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+private:
+	// makes the variable openAngle visible in the Unreal editor
+	UPROPERTY(VisibleAnywhere)
+	float openAngle = 90.f;
+
+	// makes the variable openAngle editable in the Unreal editor
+	UPROPERTY(EditAnywhere)
+	ATriggerVolume* pressurePlatform;
+	
 	
 };

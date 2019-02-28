@@ -41,6 +41,7 @@
     <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoomGameModeBase.h">
       <Filter>Source\EscapeRoom</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\EscapeRoom\PositionReport.h">

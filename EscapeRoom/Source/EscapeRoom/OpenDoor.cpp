@@ -22,7 +22,7 @@ void UOpenDoor::BeginPlay()
 
 	AActor* actor = GetOwner();
 
-	FRotator rotation = FRotator(0.f, -90.f, 0.f);
+	FRotator rotation = FRotator(0.f, 180.f, 0.f);
 	actor->SetActorRotation(rotation);
 
 	//FQuat quaternion = rotation.Quaternion();
