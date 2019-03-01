@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PositionReport.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Actor.h"	// inclided for GetOwner()
 
 // Sets default values for this component's properties
 UPositionReport::UPositionReport()
@@ -21,9 +21,9 @@ void UPositionReport::BeginPlay()
 
 	FString itemName = GetOwner()->GetName();
 	FString itemPosition = GetOwner()->GetActorLocation().ToString();
-	UE_LOG(LogTemp, Error, TEXT("%s is at %s"), *itemName, *itemPosition);  // note: The * is not referig to a pointer. It is a operator overflow.
+	UE_LOG(LogTemp, Log, TEXT("%s is at %s"), *itemName, *itemPosition);  // note: The * is not referig to a pointer. It is a operator overflow.
 	//UE_LOG(LogTemp, Warning, TEXT("Position report on $s"), *itemName);
-	//UE_LOG(LogTemp, Log, TEXT("Position report on %s"), *itemName);
+	//UE_LOG(LogTemp, Error, TEXT("Position report on %s"), *itemName);
 }
 
 
