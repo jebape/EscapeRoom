@@ -30,16 +30,16 @@ void UOpenDoor::OpenDoor()
 {
 	this->owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f));
 
-	//FQuat quaternion = rotation.Quaternion();
-	//actor->SetActorRotation(actor->GetActorQuat()*quaternion);
+	//FQuat quaternion = FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f).Quaternion();
+	//this->owner->SetActorRotation(this->owner->GetActorQuat()*quaternion);
 }
 
 void UOpenDoor::CloseDoor()
 {
 	owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle, 0.f));
 
-	//FQuat quaternion = rotation.Quaternion();
-	//actor->SetActorRotation(actor->GetActorQuat()*quaternion);
+	//FQuat quaternion = FRotator(0.f, this->closedDoorAngle, 0.f).Quaternion();
+	//this->owner->SetActorRotation(this->owner->GetActorQuat()*quaternion);
 }
 
 bool UOpenDoor::IsOpen() {
