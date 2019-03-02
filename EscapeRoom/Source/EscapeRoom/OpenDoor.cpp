@@ -21,20 +21,34 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	actorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
+	this->owner = GetOwner();
+	this->actorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 	
 }
 
 void UOpenDoor::OpenDoor()
 {
-	AActor* actor = GetOwner();
-
 	FRotator rotation = FRotator(0.f, 180.f, 0.f);
-	actor->SetActorRotation(rotation);
+	this->owner->SetActorRotation(rotation);
+	//FRotator ownersRotation = this->owner->GetActorRotation();
 
 	//FQuat quaternion = rotation.Quaternion();
 	//actor->SetActorRotation(actor->GetActorQuat()*quaternion);
 }
+
+void UOpenDoor::CloseDoor()
+{
+	FRotator rotation = FRotator(0.f, 90.f, 0.f);
+	this->owner->SetActorRotation(rotation);
+
+	//FQuat quaternion = rotation.Quaternion();
+	//actor->SetActorRotation(actor->GetActorQuat()*quaternion);
+}
+
+bool UOpenDoor::IsOpen() {
+	return this->open;
+}
+
 
 
 // Called every frame
@@ -43,9 +57,18 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// todo: poll the trigger volume
-	if (pressurePlatform->IsOverlappingActor(actorThatOpens)) {
+	if (this->pressurePlatform->IsOverlappingActor(this->actorThatOpens)) {
 	// if the actorThatOpens is in the volume
 		OpenDoor();
+		this->lastDoorOpenTime = GetWorld()->GetTimeSeconds();
+		this->open = true;
 	}
+	if (this->lastDoorOpenTime + this->doorCloseDelay < GetWorld()->GetTimeSeconds() && this->IsOpen()) {
+		CloseDoor();
+		this->open = false;
+	}
+
+
+	
 }
 
