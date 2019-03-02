@@ -34,23 +34,24 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	// makes the variable openAngle visible in the Unreal editor
-	UPROPERTY(VisibleAnywhere)
-	float openAngle = 90.f;
-
-	// makes the variable openAngle editable in the Unreal editor
-	UPROPERTY(EditAnywhere)
-	ATriggerVolume* pressurePlatform;
-	
-	UPROPERTY(EditAnywhere)
-	float doorCloseDelay = 5.f;
-
-	float lastDoorOpenTime;
-
-	UPROPERTY(VisibleAnywhere)
-	bool open = false;
-
 	AActor* owner;
 	AActor* actorThatOpens;
+	float lastDoorOpenTime;
+
+	// makes the variable editable in the Unreal editor
+	UPROPERTY(EditAnywhere)
+		float openedDoorAngle = 100.f;
+	UPROPERTY(EditAnywhere)
+		float closedDoorAngle = 90.f;
+	UPROPERTY(EditAnywhere)
+		float doorCloseDelay = 5.f;
+	UPROPERTY(EditAnywhere)
+		ATriggerVolume* pressurePlatform;
+
+	// makes the variable visible in the Unreal editor
+	UPROPERTY(VisibleAnywhere)
+		bool open = false;
+
+
 
 };

@@ -28,9 +28,7 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor()
 {
-	FRotator rotation = FRotator(0.f, 180.f, 0.f);
-	this->owner->SetActorRotation(rotation);
-	//FRotator ownersRotation = this->owner->GetActorRotation();
+	this->owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f));
 
 	//FQuat quaternion = rotation.Quaternion();
 	//actor->SetActorRotation(actor->GetActorQuat()*quaternion);
@@ -38,8 +36,7 @@ void UOpenDoor::OpenDoor()
 
 void UOpenDoor::CloseDoor()
 {
-	FRotator rotation = FRotator(0.f, 90.f, 0.f);
-	this->owner->SetActorRotation(rotation);
+	owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle, 0.f));
 
 	//FQuat quaternion = rotation.Quaternion();
 	//actor->SetActorRotation(actor->GetActorQuat()*quaternion);
@@ -63,7 +60,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 		this->lastDoorOpenTime = GetWorld()->GetTimeSeconds();
 		this->open = true;
 	}
-	if (this->lastDoorOpenTime + this->doorCloseDelay < GetWorld()->GetTimeSeconds() && this->IsOpen()) {
+	if (this->IsOpen() && this->lastDoorOpenTime + this->doorCloseDelay < GetWorld()->GetTimeSeconds()) {
 		CloseDoor();
 		this->open = false;
 	}

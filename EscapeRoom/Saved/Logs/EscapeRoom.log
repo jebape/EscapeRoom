@@ -785,3 +785,159 @@ LogInit: Object subsystem initialized
 [2019.03.02-15.06.15:428][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto3.umap
 [2019.03.02-15.06.15:431][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.113
 [2019.03.02-15.06.15:432][386]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.113
+[2019.03.02-15.35.37:928][726]LogHttp: Warning: 0000020F39C0FD00: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7E0027DA-4695-1775-BA9A-8984216B0446%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=b1c267d0449c19def87e9c83f7dfeea7%7C1d8404dce6fc40c9a21d7a584edf7574%7Cd7e9d05d-c5ee-4470-950a-d6a32865c9f5&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.03.02-15.35.37:929][726]LogHttp: Warning: 0000020F39C0FD00 Response Header Server: awselb/2.0
+[2019.03.02-15.35.37:930][726]LogHttp: Warning: 0000020F39C0FD00 Response Header Date: Sat, 02 Mar 2019 15:35:36 GMT
+[2019.03.02-15.35.37:930][726]LogHttp: Warning: 0000020F39C0FD00 Response Header Content-Type: text/html
+[2019.03.02-15.35.37:930][726]LogHttp: Warning: 0000020F39C0FD00 Response Header Content-Length: 138
+[2019.03.02-15.35.37:930][726]LogHttp: Warning: 0000020F39C0FD00 Response Header Connection: keep-alive
+[2019.03.02-15.40.28:593][597]LogHotReload: New module detected: UE4Editor-EscapeRoom-9459.dll
+[2019.03.02-15.40.29:617][601]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.02-15.40.31:779][601]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.03.02-15.40.31:855][601]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0020 seconds. Added 3 classes and 2 folders.
+[2019.03.02-15.40.31:857][601]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.02-15.40.31:900][601]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2457 classes and 564 folders.
+[2019.03.02-15.40.31:905][601]Display: HotReload took  2.3s.
+[2019.03.02-15.40.34:461][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.02-15.40.34:536][815]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.02-15.40.34:550][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.02-15.40.34:550][815]PIE: New page: PIE session: NewMap (Mar 2, 2019, 5:40:34 PM)
+[2019.03.02-15.40.34:550][815]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.02-15.40.34:554][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003669s)
+[2019.03.02-15.40.34:555][815]LogAIModule: Creating AISystem for world NewMap
+[2019.03.02-15.40.34:555][815]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2019.03.02-15.40.34:556][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005056s)
+[2019.03.02-15.40.34:574][815]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.02-15.40.34:586][815]LogInit: FAudioDevice initialized.
+[2019.03.02-15.40.34:619][815]LogLoad: Game class is 'GameModeBase'
+[2019.03.02-15.40.34:622][815]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.02-16.40.34
+[2019.03.02-15.40.34:622][815]LogWorld: Bringing up level for play took: 0.001833
+[2019.03.02-15.40.34:623][815]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.02-15.40.34:623][815]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.02-15.40.34:624][815]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.02-15.40.34:624][815]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.648
+[2019.03.02-15.40.56:132][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.02-15.40.56:198][368]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.02-15.40.56:214][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.02-15.40.56:214][368]PIE: New page: PIE session: NewMap (Mar 2, 2019, 5:40:56 PM)
+[2019.03.02-15.40.56:214][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.02-15.40.56:219][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005091s)
+[2019.03.02-15.40.56:220][368]LogAIModule: Creating AISystem for world NewMap
+[2019.03.02-15.40.56:221][368]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2019.03.02-15.40.56:221][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006800s)
+[2019.03.02-15.40.56:243][368]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.02-15.40.56:255][368]LogInit: FAudioDevice initialized.
+[2019.03.02-15.40.56:290][368]LogLoad: Game class is 'GameModeBase'
+[2019.03.02-15.40.56:293][368]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.02-16.40.56
+[2019.03.02-15.40.56:293][368]LogWorld: Bringing up level for play took: 0.002764
+[2019.03.02-15.40.56:294][368]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.02-15.40.56:294][368]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.02-15.40.56:294][368]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.02-15.40.56:295][368]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.319
+[2019.03.02-15.41.35:792][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.03.02-15.41.36:816][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.03.02-15.41.39:223][426]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.03.02-15.42.11:559][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.02-15.42.11:664][201]LogSavePackage: Save=58.91ms
+[2019.03.02-15.42.11:665][201]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_Auto4AF1C5D8946BD2DA54AAE7F84AF8801C1.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2019.03.02-15.42.11:668][201]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto4.umap
+[2019.03.02-15.42.11:673][201]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.100
+[2019.03.02-15.42.11:673][201]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.100
+[2019.03.02-15.52.12:939][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.02-15.52.14:920][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.02-15.52.15:074][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.02-15.52.15:163][140]LogSavePackage: Save=59.62ms
+[2019.03.02-15.52.15:163][140]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap7A16B74B497C1C01C7078FAA5D868B4D.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.03.02-15.52.15:172][140]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.03.02-15.52.15:193][140]LogFileHelpers: Saving map 'NewMap' took 0.269
+[2019.03.02-15.52.39:602][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.02-15.52.39:669][172]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.02-15.52.39:681][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.02-15.52.39:681][172]PIE: New page: PIE session: NewMap (Mar 2, 2019, 5:52:39 PM)
+[2019.03.02-15.52.39:682][172]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.02-15.52.39:685][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003590s)
+[2019.03.02-15.52.39:686][172]LogAIModule: Creating AISystem for world NewMap
+[2019.03.02-15.52.39:686][172]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2019.03.02-15.52.39:687][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005189s)
+[2019.03.02-15.52.39:711][172]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.02-15.52.39:723][172]LogInit: FAudioDevice initialized.
+[2019.03.02-15.52.39:757][172]LogLoad: Game class is 'GameModeBase'
+[2019.03.02-15.52.39:760][172]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.02-16.52.39
+[2019.03.02-15.52.39:760][172]LogWorld: Bringing up level for play took: 0.001707
+[2019.03.02-15.52.39:761][172]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.02-15.52.39:761][172]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.02-15.52.39:761][172]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.02-15.52.39:761][172]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.214
+[2019.03.02-15.53.13:095][151]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.02-15.58.35:581][425]LogHotReload: New module detected: UE4Editor-EscapeRoom-7988.dll
+[2019.03.02-15.58.36:612][429]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.02-15.58.38:528][429]LogClass: Could not find existing class OpenDoor in package /Script/EscapeRoom for HotReload, assuming new class
+[2019.03.02-15.58.38:531][429]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.03.02-15.58.38:607][429]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0020 seconds. Added 3 classes and 2 folders.
+[2019.03.02-15.58.38:609][429]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.02-15.58.38:648][429]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2457 classes and 564 folders.
+[2019.03.02-15.58.38:652][429]Display: HotReload took  2.0s.
+[2019.03.02-15.58.42:380][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.02-15.58.42:445][581]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.02-15.58.42:459][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.02-15.58.42:459][581]PIE: New page: PIE session: NewMap (Mar 2, 2019, 5:58:42 PM)
+[2019.03.02-15.58.42:459][581]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.02-15.58.42:463][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003578s)
+[2019.03.02-15.58.42:464][581]LogAIModule: Creating AISystem for world NewMap
+[2019.03.02-15.58.42:464][581]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2019.03.02-15.58.42:464][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005069s)
+[2019.03.02-15.58.42:484][581]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.02-15.58.42:496][581]LogInit: FAudioDevice initialized.
+[2019.03.02-15.58.42:531][581]LogLoad: Game class is 'GameModeBase'
+[2019.03.02-15.58.42:533][581]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.02-16.58.42
+[2019.03.02-15.58.42:534][581]LogWorld: Bringing up level for play took: 0.001763
+[2019.03.02-15.58.42:535][581]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.02-15.58.42:535][581]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.02-15.58.42:535][581]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.02-15.58.42:536][581]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.561
+[2019.03.02-15.58.58:561][495]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.02-15.59.18:408][846]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.02-16.01.15:677][967]LogHotReload: New module detected: UE4Editor-EscapeRoom-8921.dll
+[2019.03.02-16.01.16:713][971]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.02-16.01.20:877][971]LogClass: Could not find existing class OpenDoor in package /Script/EscapeRoom for HotReload, assuming new class
+[2019.03.02-16.01.20:881][971]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.03.02-16.01.20:932][971]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0016 seconds. Added 3 classes and 2 folders.
+[2019.03.02-16.01.20:934][971]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.02-16.01.20:970][971]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2457 classes and 564 folders.
+[2019.03.02-16.01.20:974][971]Display: HotReload took  4.3s.
+[2019.03.02-16.05.24:636][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.02-16.05.45:283][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.02-16.05.45:375][510]LogSavePackage: Save=61.06ms
+[2019.03.02-16.05.45:375][510]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMapAC64B60E4597BA7849B3008EF1912F11.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.03.02-16.05.45:384][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.03.02-16.05.45:408][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.03.02-16.05.45:546][510]LogSavePackage: Save=114.34ms
+[2019.03.02-16.05.45:546][510]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_BuiltDataF48E98864415A09742186AA6ED0BD7E7.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2019.03.02-16.05.45:551][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset
+[2019.03.02-16.05.48:265][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.02-16.05.48:348][841]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.02-16.05.48:361][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.02-16.05.48:362][841]PIE: New page: PIE session: NewMap (Mar 2, 2019, 6:05:48 PM)
+[2019.03.02-16.05.48:362][841]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.02-16.05.48:365][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003421s)
+[2019.03.02-16.05.48:366][841]LogAIModule: Creating AISystem for world NewMap
+[2019.03.02-16.05.48:367][841]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2019.03.02-16.05.48:367][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005088s)
+[2019.03.02-16.05.48:389][841]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.02-16.05.48:402][841]LogInit: FAudioDevice initialized.
+[2019.03.02-16.05.48:435][841]LogLoad: Game class is 'GameModeBase'
+[2019.03.02-16.05.48:439][841]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.02-17.05.48
+[2019.03.02-16.05.48:440][841]LogWorld: Bringing up level for play took: 0.003361
+[2019.03.02-16.05.48:442][841]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.02-16.05.48:442][841]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.02-16.05.48:443][841]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.02-16.05.48:444][841]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.468
+[2019.03.02-16.06.09:679][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.02-16.06.16:621][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.02-16.06.16:713][182]LogSavePackage: Save=61.67ms
+[2019.03.02-16.06.16:713][182]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap9F5E53BB41949360671FD2AB4A8B95C1.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap'
+[2019.03.02-16.06.16:723][182]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap.umap
+[2019.03.02-16.06.16:752][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.03.02-16.06.16:875][182]LogSavePackage: Save=106.06ms
+[2019.03.02-16.06.16:875][182]LogSavePackage: Moving '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Saved/NewMap_BuiltDataF867252141DDCB869AF751A733B74168.tmp' to '../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset'
+[2019.03.02-16.06.16:879][182]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/Content/NewMap_BuiltData.uasset
