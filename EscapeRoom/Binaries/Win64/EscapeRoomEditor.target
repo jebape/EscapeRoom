@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeRoom-6625.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeRoom-2831.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeRoom-6625.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeRoom-2831.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-EscapeRoom-6625.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-EscapeRoom-2831.lib",
 			"Type": "ImportLibrary"
 		},
 		{

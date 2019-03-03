@@ -3,7 +3,9 @@
 #include "Grabber.h"
 #include "Engine/World.h"			// included for GetWorld()
 #include "DrawDebugHelpers.h"		// included for DrawDebugLine()
+#include "CollisionQueryParams.h"	// included for FCollisionObjectQueryparams
 
+#define OUT				// it does nothing because is defined to nothing, just marks when a parameter is a return parameter.
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -36,12 +38,30 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(playerViewPointLocation, playerViewPointRotation);
 	//UE_LOG(LogTemp, Log, TEXT("%s : %s"), *playerViewPointLocation.ToString(), *playerViewPointRotation.ToString());
 
-	// Adding two vectors: playerViewPointLocation + (lineTraceDirection * reach)
+	// Addition of two vectors: playerViewPointLocation + (lineTraceDirection * reach)
 	FVector lineTraceEnd = playerViewPointLocation + playerViewPointRotation.Vector() * this->reach;
-	DrawDebugLine(GetWorld(), playerViewPointLocation, lineTraceEnd, FColor(255, 0, 0));
-	// todo: Ray-castout to reach distance
+	/*DrawDebugLine(
+		GetWorld(), 
+		playerViewPointLocation, 
+		lineTraceEnd, 
+		FColor(255, 0, 0)
+	);*/
+	// result of what we are hitting
+	FHitResult hitResult;
+	GetWorld()->LineTraceSingleByObjectType(
+		OUT hitResult, 
+		playerViewPointLocation, 
+		lineTraceEnd, 
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		FCollisionQueryParams(FName(TEXT("")), false, GetOwner())	/// false because we want the simple colliders & we ignore ourselves
+	);
 
-	// todo: see what we hit
+	// see what we hit
+	AActor* actorHit = hitResult.GetActor();
+	if (actorHit) {
+		UE_LOG(LogTemp, Log, TEXT("Line trace hitting: %s"), *actorHit->GetName());
+	}
+	
 	
 }
 
