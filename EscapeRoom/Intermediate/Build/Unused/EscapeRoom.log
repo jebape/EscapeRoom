@@ -1,13 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading EscapeRoomEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Performing 4 actions (4 in parallel)
+  Performing 3 actions (4 in parallel)
   Grabber.cpp
-  PositionReport.cpp
-C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Source\EscapeRoom\Grabber.cpp(78): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Source\EscapeRoom\Grabber.cpp(65): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
   C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
-  [3/4] Link UE4Editor-EscapeRoom-4177.dll
-  [4/4] Link UE4Editor-EscapeRoom-4177.lib
-     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4177.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4177.exp
-     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4177.suppressed.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4177.suppressed.exp
+  [2/3] Link UE4Editor-EscapeRoom-498.dll
+  [3/3] Link UE4Editor-EscapeRoom-498.lib
+     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-498.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-498.exp
+     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-498.suppressed.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-498.suppressed.exp
   Deploying EscapeRoomEditor Win64 Development...
-  Total build time: 5,43 seconds (Local executor: 2,33 seconds)
+  Total build time: 19,16 seconds (Local executor: 3,04 seconds)

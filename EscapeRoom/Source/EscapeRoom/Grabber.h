@@ -29,6 +29,10 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	FVector GetLineTraceStart() const;
+
+	FVector GetLineTraceEnd() const;
+
 	FHitResult GetPhysicsBodyInReach() const;
 
 private:

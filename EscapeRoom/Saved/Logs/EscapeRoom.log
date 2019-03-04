@@ -560,3 +560,189 @@ LogInit: Object subsystem initialized
 [2019.03.04-20.19.12:156][181]LogTemp: Warning: Grab action key pressed
 [2019.03.04-20.19.12:156][181]LogTemp: Line trace hitting: SM_TableRound_5
 [2019.03.04-20.19.27:657][ 41]LogTemp: Warning: Grab action key released
+[2019.03.04-20.23.25:574][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-20.23.25:640][379]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.04-20.23.25:655][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.04-20.23.25:655][379]PIE: New page: PIE session: NewMap (Mar 4, 2019, 10:23:25 PM)
+[2019.03.04-20.23.25:655][379]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.04-20.23.25:660][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003945s)
+[2019.03.04-20.23.25:661][379]LogAIModule: Creating AISystem for world NewMap
+[2019.03.04-20.23.25:661][379]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2019.03.04-20.23.25:661][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005780s)
+[2019.03.04-20.23.25:685][379]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.04-20.23.25:699][379]LogInit: FAudioDevice initialized.
+[2019.03.04-20.23.25:731][379]LogLoad: Game class is 'MyEscapeRoomGameModeBase_C'
+[2019.03.04-20.23.25:733][379]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.04-21.23.25
+[2019.03.04-20.23.25:734][379]LogWorld: Bringing up level for play took: 0.001826
+[2019.03.04-20.23.25:735][379]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.04-20.23.25:735][379]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.04-20.23.25:735][379]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.04-20.23.25:736][379]LogTemp: UInputComponent found in DefaultPawn_BP_C_0
+[2019.03.04-20.23.25:736][379]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.287
+[2019.03.04-20.23.38:853][941]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.04-20.23.38:867][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.04-20.23.38:868][941]PIE: New page: PIE session: NewMap (Mar 4, 2019, 10:23:38 PM)
+[2019.03.04-20.23.38:868][941]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.04-20.23.38:872][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003664s)
+[2019.03.04-20.23.38:872][941]LogAIModule: Creating AISystem for world NewMap
+[2019.03.04-20.23.38:873][941]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2019.03.04-20.23.38:873][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004936s)
+[2019.03.04-20.23.38:894][941]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.04-20.23.38:907][941]LogInit: FAudioDevice initialized.
+[2019.03.04-20.23.38:940][941]LogLoad: Game class is 'MyEscapeRoomGameModeBase_C'
+[2019.03.04-20.23.38:943][941]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.04-21.23.38
+[2019.03.04-20.23.38:943][941]LogWorld: Bringing up level for play took: 0.002008
+[2019.03.04-20.23.38:944][941]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.04-20.23.38:944][941]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.04-20.23.38:944][941]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.04-20.23.38:945][941]LogTemp: UInputComponent found in DefaultPawn_BP_C_0
+[2019.03.04-20.23.38:945][941]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.922
+[2019.03.04-20.23.43:836][522]Cmd: LevelEditor.ToggleImmersive
+[2019.03.04-20.23.44:085][523]LogRenderer: Reallocating scene render targets to support 1464x800 Format 10 NumSamples 1 (Frame:583).
+[2019.03.04-20.23.44:184][524]LogRenderer: Reallocating scene render targets to support 1600x860 Format 10 NumSamples 1 (Frame:585).
+[2019.03.04-20.23.44:188][524]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-20.24.09:071][800]LogTemp: Warning: Grab action key pressed
+[2019.03.04-20.24.09:071][800]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.24.11:918][ 52]LogTemp: Warning: Grab action key released
+[2019.03.04-20.24.14:758][304]LogTemp: Warning: Grab action key pressed
+[2019.03.04-20.24.14:758][304]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.24.15:548][373]LogTemp: Warning: Grab action key released
+[2019.03.04-20.24.18:096][596]LogTemp: Warning: Grab action key pressed
+[2019.03.04-20.24.18:096][596]LogTemp: Line trace hitting: SM_Couch_8
+[2019.03.04-20.24.19:827][744]LogTemp: Warning: Grab action key released
+[2019.03.04-20.24.22:126][944]LogTemp: Warning: Grab action key pressed
+[2019.03.04-20.24.22:450][973]LogTemp: Warning: Grab action key released
+[2019.03.04-20.24.22:777][  2]LogTemp: Warning: Grab action key pressed
+[2019.03.04-20.24.22:778][  2]LogTemp: Line trace hitting: SM_TableRound_5
+[2019.03.04-20.24.23:539][ 68]LogTemp: Warning: Grab action key released
+[2019.03.04-20.24.24:929][190]LogTemp: Warning: Grab action key pressed
+[2019.03.04-20.24.24:929][190]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.24.25:768][263]LogTemp: Warning: Grab action key released
+[2019.03.04-20.24.26:807][353]LogTemp: Warning: Grab action key pressed
+[2019.03.04-20.24.26:808][353]LogTemp: Line trace hitting: SM_TableRound_5
+[2019.03.04-20.24.27:570][418]LogTemp: Warning: Grab action key released
+[2019.03.04-20.24.30:723][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-20.24.35:702][879]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-20.50.30:016][247]LogHotReload: New module detected: UE4Editor-EscapeRoom-8290.dll
+[2019.03.04-20.50.31:370][252]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.04-20.50.33:495][252]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0031 seconds. Added 4 classes and 2 folders.
+[2019.03.04-20.50.33:499][252]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.04-20.50.33:557][252]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2457 classes and 562 folders.
+[2019.03.04-20.50.33:561][252]Display: HotReload took  2.2s.
+[2019.03.04-20.50.53:567][479]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.04-20.50.53:581][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.04-20.50.53:582][479]PIE: New page: PIE session: NewMap (Mar 4, 2019, 10:50:53 PM)
+[2019.03.04-20.50.53:582][479]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.04-20.50.53:586][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004078s)
+[2019.03.04-20.50.53:587][479]LogAIModule: Creating AISystem for world NewMap
+[2019.03.04-20.50.53:587][479]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2019.03.04-20.50.53:587][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005504s)
+[2019.03.04-20.50.53:611][479]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.04-20.50.53:624][479]LogInit: FAudioDevice initialized.
+[2019.03.04-20.50.53:658][479]LogLoad: Game class is 'MyEscapeRoomGameModeBase_C'
+[2019.03.04-20.50.53:660][479]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.04-21.50.53
+[2019.03.04-20.50.53:661][479]LogWorld: Bringing up level for play took: 0.001738
+[2019.03.04-20.50.53:662][479]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.04-20.50.53:662][479]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.04-20.50.53:662][479]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.04-20.50.53:662][479]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.36
+[2019.03.04-20.51.02:791][571]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.03:243][625]LogTemp: Line trace hitting: SM_Couch_8
+[2019.03.04-20.51.15:209][ 61]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.17:501][336]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.18:193][419]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.18:528][459]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.51.28:918][706]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.30:694][919]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.31:252][986]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.31:436][  8]LogTemp: Line trace hitting: SM_TableRound_5
+[2019.03.04-20.51.33:844][297]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.35:870][540]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.51.37:228][703]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.39:378][961]LogTemp: Warning: Grab action key released
+[2019.03.04-20.51.39:711][  1]LogTemp: Line trace hitting: SM_Couch_8
+[2019.03.04-20.51.40:562][103]LogTemp: Warning: Grab action key released
+[2019.03.04-20.52.28:772][418]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-20.52.29:796][522]Candidate modules for hot reload:
+[2019.03.04-20.52.29:796][522]  EscapeRoom
+[2019.03.04-20.52.29:796][522]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeRoom -ModuleWithSuffix=EscapeRoom,1627 Win64 Development -editorrecompile -canskiplink "C:/Users/Krogmer/Source/Repos/UnrealCourse/Section_03/EscapeRoom/EscapeRoom.uproject" ]
+[2019.03.04-20.52.29:799][522]Warning: Starting HotReload took  0.0s.
+[2019.03.04-20.52.49:631][258]CompilerResultsLog: New page: Compilation - Mar 4, 2019, 10:52:49 PM
+[2019.03.04-20.52.49:831][258]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.04-20.52.49:831][258]CompilerResultsLog: Creating makefile for hot reloading EscapeRoom (modules to compile have changed)
+[2019.03.04-20.52.49:832][258]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.04-20.52.49:832][258]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.03.04-20.52.49:832][258]CompilerResultsLog: Grabber.cpp
+[2019.03.04-20.52.49:832][258]CompilerResultsLog: Error: C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Source\EscapeRoom\Grabber.cpp(64) : warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.03.04-20.52.49:833][258]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89) : note: vea la declaraci?n de 'UPhysicsHandleComponent::GrabComponent'
+[2019.03.04-20.52.49:834][258]CompilerResultsLog: [2/3] Link UE4Editor-EscapeRoom-1627.dll
+[2019.03.04-20.52.49:834][258]CompilerResultsLog: [3/3] Link UE4Editor-EscapeRoom-1627.lib
+[2019.03.04-20.52.49:834][258]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1627.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1627.exp
+[2019.03.04-20.52.49:835][258]CompilerResultsLog:    Creando biblioteca C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1627.suppressed.lib y objeto C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-1627.suppressed.exp
+[2019.03.04-20.52.49:835][258]CompilerResultsLog: Total build time: 19,24 seconds (Local executor: 2,65 seconds)
+[2019.03.04-20.52.49:835][258]LogMainFrame: MainFrame: Module compiling took 20.045 seconds
+[2019.03.04-20.52.51:347][258]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0019 seconds. Added 4 classes and 2 folders.
+[2019.03.04-20.52.51:349][258]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.04-20.52.51:388][258]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2457 classes and 562 folders.
+[2019.03.04-20.52.51:388][258]Display: HotReload took 21.6s.
+[2019.03.04-20.52.53:569][519]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.04-20.52.53:585][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.04-20.52.53:585][519]PIE: New page: PIE session: NewMap (Mar 4, 2019, 10:52:53 PM)
+[2019.03.04-20.52.53:585][519]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.04-20.52.53:589][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003689s)
+[2019.03.04-20.52.53:590][519]LogAIModule: Creating AISystem for world NewMap
+[2019.03.04-20.52.53:591][519]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2019.03.04-20.52.53:591][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005414s)
+[2019.03.04-20.52.53:611][519]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.04-20.52.53:622][519]LogInit: FAudioDevice initialized.
+[2019.03.04-20.52.53:655][519]LogLoad: Game class is 'MyEscapeRoomGameModeBase_C'
+[2019.03.04-20.52.53:660][519]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.04-21.52.53
+[2019.03.04-20.52.53:661][519]LogWorld: Bringing up level for play took: 0.005126
+[2019.03.04-20.52.53:665][519]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.04-20.52.53:666][519]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.04-20.52.53:666][519]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.04-20.52.53:667][519]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.355
+[2019.03.04-20.52.56:353][835]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.53.03:787][727]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.53.05:003][873]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.53.08:987][351]LogTemp: Line trace hitting: SM_TableRound_5
+[2019.03.04-20.53.14:798][ 41]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.53.19:532][609]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.53.23:733][113]LogTemp: Line trace hitting: SM_Chair_2
+[2019.03.04-20.53.26:733][473]LogTemp: Line trace hitting: SM_Couch_8
+[2019.03.04-20.53.29:209][770]LogTemp: Line trace hitting: SM_Couch_8
+[2019.03.04-20.53.33:217][251]LogTemp: Line trace hitting: SM_TableRound_5
+[2019.03.04-20.55.37:690][450]LogHotReload: New module detected: UE4Editor-EscapeRoom-498.dll
+[2019.03.04-20.55.39:397][456]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.04-20.55.41:141][456]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0016 seconds. Added 4 classes and 2 folders.
+[2019.03.04-20.55.41:143][456]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.04-20.55.41:189][456]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2457 classes and 562 folders.
+[2019.03.04-20.55.41:193][456]Display: HotReload took  1.8s.
+[2019.03.04-20.57.41:200][816]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-20.57.43:373][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.04-20.57.43:387][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.04-20.57.43:387][ 50]PIE: New page: PIE session: NewMap (Mar 4, 2019, 10:57:43 PM)
+[2019.03.04-20.57.43:388][ 50]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.04-20.57.43:392][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004079s)
+[2019.03.04-20.57.43:393][ 50]LogAIModule: Creating AISystem for world NewMap
+[2019.03.04-20.57.43:393][ 50]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2019.03.04-20.57.43:393][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005824s)
+[2019.03.04-20.57.43:413][ 50]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.04-20.57.43:426][ 50]LogInit: FAudioDevice initialized.
+[2019.03.04-20.57.43:459][ 50]LogLoad: Game class is 'MyEscapeRoomGameModeBase_C'
+[2019.03.04-20.57.43:462][ 50]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.04-21.57.43
+[2019.03.04-20.57.43:462][ 50]LogWorld: Bringing up level for play took: 0.001997
+[2019.03.04-20.57.43:463][ 50]LogTemp: SM_Chair_2 is at X=-437.000 Y=-268.000 Z=20.000
+[2019.03.04-20.57.43:463][ 50]LogTemp: SM_TableRound_5 is at X=-417.000 Y=-416.000 Z=20.000
+[2019.03.04-20.57.43:463][ 50]LogTemp: SM_Couch_8 is at X=-185.000 Y=-437.000 Z=20.000
+[2019.03.04-20.57.43:464][ 50]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.558
+[2019.03.04-20.57.45:811][328]LogTemp: Grabbing SM_Couch_8
+[2019.03.04-20.57.48:894][698]LogTemp: Grabbing SM_Chair_2
+[2019.03.04-20.57.53:404][239]LogTemp: Grabbing SM_TableRound_5
+[2019.03.04-20.57.58:914][900]LogTemp: Grabbing SM_TableRound_5
+[2019.03.04-20.58.03:602][462]LogTemp: Grabbing SM_TableRound_5
+[2019.03.04-20.58.07:386][916]LogTemp: Grabbing SM_TableRound_5
+[2019.03.04-20.58.08:536][ 54]LogTemp: Grabbing SM_TableRound_5
+[2019.03.04-20.58.08:795][ 85]LogTemp: Grabbing SM_TableRound_5
+[2019.03.04-20.58.12:253][500]LogTemp: Grabbing SM_TableRound_5
+[2019.03.04-20.58.17:123][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
