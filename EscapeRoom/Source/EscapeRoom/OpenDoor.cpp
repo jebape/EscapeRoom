@@ -33,8 +33,10 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor()
 {
-	if(this->owner)
+	/*if(this->owner)
 		this->owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f));
+	*/
+	onOpenRequest.Broadcast();
 
 	//FQuat quaternion = FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f).Quaternion();
 	//this->owner->SetActorRotation(this->owner->GetActorQuat()*quaternion);

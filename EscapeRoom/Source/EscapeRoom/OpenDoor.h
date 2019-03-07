@@ -8,7 +8,7 @@
 
 #include "OpenDoor.generated.h"
 
-
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnOpenRequest);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ESCAPEROOM_API UOpenDoor : public UActorComponent
@@ -36,6 +36,9 @@ public:
 	// returns total mass over the plate in Kg
 	float GetTotalMassOnPlatform() const;
 
+	UPROPERTY(BlueprintAssignable)
+		FOnOpenRequest onOpenRequest;
+
 private:
 	AActor* owner = nullptr;
 	AActor* actorThatOpens = nullptr;
@@ -57,6 +60,6 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		bool open = false;
 
-
+	
 
 };
