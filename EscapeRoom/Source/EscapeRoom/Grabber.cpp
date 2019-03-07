@@ -47,7 +47,7 @@ void UGrabber::FindInputComponent()
 void UGrabber::FindPhysicsComponent()
 {
 	physicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (physicsHandle == nullptr) {
+	if (!physicsHandle) {
 		UE_LOG(LogTemp, Error, TEXT("UPhysicshandleComponent not found in %s"), *GetOwner()->GetName());
 	}
 }
@@ -59,7 +59,7 @@ void UGrabber::Grab()
 	FHitResult hitResult = this->GetPhysicsBodyInReach();
 	// if we hit, then attach physics handle
 	AActor* actorHit = hitResult.GetActor();
-	if (actorHit != nullptr) {
+	if (actorHit && physicsHandle) {
 		UE_LOG(LogTemp, Log, TEXT("Grabbing %s"), *actorHit->GetName());
 		UPrimitiveComponent* componentToGrab = hitResult.GetComponent();
 		physicsHandle->GrabComponent(
@@ -75,8 +75,11 @@ void UGrabber::Grab()
 // called when Grab key is released
 void UGrabber::Release()
 {
-	// release atached physics handle
-	physicsHandle->ReleaseComponent();
+	if (physicsHandle)
+	{
+		// release atached physics handle
+		physicsHandle->ReleaseComponent();
+	}
 }
 
 // Called every frame
@@ -85,8 +88,11 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// if physics handle is attached, then move object we are holding
-	if (physicsHandle->GrabbedComponent) {
-		physicsHandle->SetTargetLocation(this->GetLineTraceEnd());
+	if (physicsHandle)
+	{
+		if (physicsHandle->GrabbedComponent) {
+			physicsHandle->SetTargetLocation(this->GetLineTraceEnd());
+		}
 	}
 }
 

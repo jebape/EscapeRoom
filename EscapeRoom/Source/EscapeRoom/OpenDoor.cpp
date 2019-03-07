@@ -33,7 +33,8 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor()
 {
-	this->owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f));
+	if(this->owner)
+		this->owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f));
 
 	//FQuat quaternion = FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f).Quaternion();
 	//this->owner->SetActorRotation(this->owner->GetActorQuat()*quaternion);
@@ -41,7 +42,8 @@ void UOpenDoor::OpenDoor()
 
 void UOpenDoor::CloseDoor()
 {
-	owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle, 0.f));
+	if (this->owner)
+		owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle, 0.f));
 
 	//FQuat quaternion = FRotator(0.f, this->closedDoorAngle, 0.f).Quaternion();
 	//this->owner->SetActorRotation(this->owner->GetActorQuat()*quaternion);
@@ -75,9 +77,13 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 float UOpenDoor::GetTotalMassOnPlatform() const
 {
-	float totalMass = 0.f;
-	
+	if (!pressurePlatform) {
+		UE_LOG(LogTemp, Error, TEXT("Pressure Platform not found in %s"), *GetOwner()->GetName());
+		return 0.f;
+	}
+		
 
+	float totalMass = 0.f;
 	TArray<AActor*> overlappingActors;
 	// finding all the overlapping actors
 	pressurePlatform->GetOverlappingActors(OUT overlappingActors);

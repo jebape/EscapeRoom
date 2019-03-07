@@ -37,9 +37,9 @@ public:
 	float GetTotalMassOnPlatform() const;
 
 private:
-	AActor* owner;
-	AActor* actorThatOpens;
-	float lastDoorOpenTime;
+	AActor* owner = nullptr;
+	AActor* actorThatOpens = nullptr;
+	float lastDoorOpenTime = 0.f;
 
 	// makes the variable editable in the Unreal editor
 	UPROPERTY(EditAnywhere)
@@ -51,7 +51,7 @@ private:
 	UPROPERTY(EditAnywhere)
 		float massLimit = 50.f;
 	UPROPERTY(EditAnywhere)
-		ATriggerVolume* pressurePlatform;
+		ATriggerVolume* pressurePlatform = nullptr;
 
 	// makes the variable visible in the Unreal editor
 	UPROPERTY(VisibleAnywhere)
