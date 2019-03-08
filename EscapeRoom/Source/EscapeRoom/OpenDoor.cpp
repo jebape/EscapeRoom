@@ -33,28 +33,24 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor()
 {
+	onOpenRequest.Broadcast();
+
 	/*if(this->owner)
 		this->owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f));
 	*/
-	onOpenRequest.Broadcast();
-
 	//FQuat quaternion = FRotator(0.f, this->closedDoorAngle + this->openedDoorAngle, 0.f).Quaternion();
 	//this->owner->SetActorRotation(this->owner->GetActorQuat()*quaternion);
 }
 
 void UOpenDoor::CloseDoor()
 {
-	if (this->owner)
-		owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle, 0.f));
+	onCloseRequest.Broadcast();
 
+	/*if (this->owner)
+	owner->SetActorRotation(FRotator(0.f, this->closedDoorAngle, 0.f));*/
 	//FQuat quaternion = FRotator(0.f, this->closedDoorAngle, 0.f).Quaternion();
 	//this->owner->SetActorRotation(this->owner->GetActorQuat()*quaternion);
 }
-
-bool UOpenDoor::IsOpen() {
-	return this->open;
-}
-
 
 
 // Called every frame
@@ -65,12 +61,9 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	// poll the trigger volume
 	if (GetTotalMassOnPlatform() > massLimit) {		
 		OpenDoor();
-		this->lastDoorOpenTime = GetWorld()->GetTimeSeconds();
-		this->open = true;
 	}
-	if (this->IsOpen() && this->lastDoorOpenTime + this->doorCloseDelay < GetWorld()->GetTimeSeconds()) {
-		CloseDoor();
-		this->open = false;
+	else {
+		CloseDoor();	
 	}
 
 

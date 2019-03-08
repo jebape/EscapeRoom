@@ -1,11 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for hot reloading EscapeRoomEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
+  Parsing headers for EscapeRoomEditor
+    Running UnrealHeaderTool "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\EscapeRoom.uproject" "C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeRoomEditor in 10,7776331 seconds
+  Performing 5 actions (4 in parallel)
+  OpenDoor.gen.cpp
   OpenDoor.cpp
-  [2/3] Link UE4Editor-EscapeRoom-4313.dll
-  [3/3] Link UE4Editor-EscapeRoom-4313.lib
-     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4313.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4313.exp
-     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4313.suppressed.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4313.suppressed.exp
+  EscapeRoom.init.gen.cpp
+  [4/5] Link UE4Editor-EscapeRoom-2705.dll
+  [5/5] Link UE4Editor-EscapeRoom-2705.lib
+     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2705.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2705.exp
+     Creating library C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2705.suppressed.lib and object C:\Users\Krogmer\Source\Repos\UnrealCourse\Section_03\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-2705.suppressed.exp
   Deploying EscapeRoomEditor Win64 Development...
-  Total build time: 15,62 seconds (Local executor: 2,43 seconds)
+  Total build time: 138,41 seconds (Local executor: 60,91 seconds)
